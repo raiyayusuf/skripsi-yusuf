@@ -13,7 +13,6 @@ try:
     if img is None:
         raise FileNotFoundError("Path tidak ditemukan!")
     print("Gambar berhasil dimuat, loading detection...")
-
     results = model(img)
     
     for r in results:
