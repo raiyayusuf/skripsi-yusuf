@@ -8,7 +8,7 @@ model_path = "program/model/gabungNewV8version4-200x320-26juni2025-x3.pt"
 model = YOLO(model_path)
 
 # Load gambar
-image_path = "program/img/lapangan1.jpg"
+image_path = "program/img/lapangan3.jpg"
 image = cv2.imread(image_path)
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 

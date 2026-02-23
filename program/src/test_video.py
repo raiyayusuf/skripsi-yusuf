@@ -2,8 +2,8 @@ from ultralytics import YOLO
 import cv2
 import math
 
-model_path = r"program\model\gabungNewV8version4-200x320-26juni2025-x3.pt"
-video_path = r"program\vid\video_short_basket_yusuf.mp4"
+model_path = r"program/model/gabungNewV8version4-200x320-26juni2025-x3.pt"
+video_path = r"program/vid/video_short_basket_yusuf.mp4"
 
 model = YOLO(model_path)
 classNames = model.names  

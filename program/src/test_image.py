@@ -2,11 +2,11 @@ from ultralytics import YOLO
 import cv2
 import math
 
-model_path = r"program\model\gabungNewV8version4-200x320-26juni2025-x3.pt"
+model_path = r"program/model/gabungNewV8version4-200x320-26juni2025-x3.pt"
 model = YOLO(model_path)
 classNames = model.names  
 
-image = r"program\img\lapangan2.jpg"
+image = r"program/img/lapangan1.jpg"
 
 try:
     img = cv2.imread(image)
