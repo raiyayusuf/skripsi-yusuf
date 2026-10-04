@@ -1,0 +1,613 @@
+================================================================================
+                    BLUEPRINT SKRIPSI - RAIYA YUSUF PRIATMOJO
+                    "Trainer Kit Multi Sensor Berbasis Arduino Uno"
+================================================================================
+
+
+1. IDENTITAS & KEPUTUSAN FIX
+================================================================================
+
+Nama          : Raiya Yusuf Priatmojo
+NIM           : 22518244004
+Prodi         : Pendidikan Teknik Mekatronika
+Fakultas      : Teknik
+Kampus        : Universitas Negeri Yogyakarta
+Dosen         : Pak Yuwono (insyaallah)
+Judul Final   : [belum fix, nunggu konsul]
+
+Metode        : R&D (Research and Development)
+Model         : ADDIE
+Mikrokontroler: Arduino Uno
+Sensor        : 6 (LDR, Push Button, Ultrasonik, IR, DHT11, PIR)
+Output        : 4 wajib (LED, Buzzer, LCD, Servo) + RGB LED
+Target        : Peserta Didik Jenjang Menengah di GSE
+Lokasi        : CV Global Solusi Edukasi
+Fokus         : Kelayakan & Kepraktisan
+
+Catatan:
+- Judul harus <= 20 kata (Panduan UNY 2023, Lampiran 1)
+- Sensor & output bisa berubah sesuai arahan dosen
+- Referensi & jurnal ditentukan nanti setelah judul fix
+
+
+2. ATURAN MAIN (PERATURAN)
+================================================================================
+
+2.1 ATURAN PENULISAN (DARI PANDUAN UNY 2023)
+--------------------------------------------------------------------------------
+
+Kertas        : A4, 70 gram, putih
+Margin        : Atas 4 cm, Bawah 3 cm, Kiri 4 cm, Kanan 3 cm
+Font          : Times New Roman, 12 pt
+Spasi         : Ganda (2.0)
+Spasi khusus  : Tunggal (1.0) untuk kutipan >4 baris, daftar pustaka,
+                judul tabel/gambar >2 baris
+Bab           : Romawi (I, II, ...), CAPITAL, bold, center
+Subbab        : Kapital (A, B, ...), bold, rata kiri
+Anak Subbab   : Angka (1, 2, ...), bold, rata kiri
+Nomor Halaman : Bawah tengah
+                - Romawi kecil (i, ii, ...) untuk bagian awal
+                - Angka Arab (1, 2, ...) untuk isi sampai lampiran
+Kutipan       : APA 7th Edition
+Daftar Pustaka : APA 7th Edition, alfabetis, spasi tunggal
+                (jarak antar-pustaka 2 spasi)
+
+2.2 ATURAN BAHASA
+--------------------------------------------------------------------------------
+
+WAJIB:
+- Bahasa Indonesia ragam ilmiah
+- Kalimat pasif (misal: "Penelitian ini dilakukan...")
+- Istilah baku (misal: "mikrokontroler", bukan "microcontroller")
+- Kata tugas lengkap (dan, dari, daripada)
+- Satu ide pokok per paragraf
+- Minimal 2 kalimat per paragraf
+- Imbuhan ditulis tersurat
+- Koheren & kohesif antar kalimat dan paragraf
+
+DILARANG:
+- Kata persona: saya, kami, kita, aku
+- Kata tidak baku: gimana, kayak, banget
+- Singkatan tidak resmi: dll, dsb, dgn
+- Kalimat ambigu
+- Paragraf 1 kalimat
+- Garis bawah (underline), termasuk URL
+
+2.3 ATURAN JUDUL
+--------------------------------------------------------------------------------
+
+- Maksimal 20 kata (Panduan UNY 2023, Lampiran 1)
+- Spesifik, jelas, nggak ambigu
+- Mencerminkan masalah & jenis penelitian
+- Hindari singkatan yang nggak perlu
+- Judul ditulis uppercase, center, bold di halaman sampul
+
+2.4 ATURAN SITASI & DAFTAR PUSTAKA
+--------------------------------------------------------------------------------
+
+Format: APA 7th Edition
+Aplikasi: Mendeley / Zotero
+
+Contoh dalam teks:
+- (Wright, 2017)
+- Wright (2017) menyatakan...
+- (Handayani & Sanusi, 2020)
+- (Grotlüschen et al., 2016)
+
+Kutipan langsung < 4 baris:
+- Dalam teks, tanda petik, (Nama, Tahun, Halaman)
+- Contoh: Bennett (2015, p. 466)
+
+Kutipan langsung >= 4 baris:
+- Terpisah, spasi tunggal, indentasi 6 ketukan, tanpa petik
+- Sumber: (Nama, Tahun, Halaman)
+
+Kutipan tidak langsung:
+- Parafrasa, spasi ganda seperti teks
+- Sumber: (Nama, Tahun)
+
+Penulisan nama di daftar pustaka:
+- Nama belakang, inisial nama depan & tengah
+- Contoh: Creswell, J.W. (2018). Research design. SAGE Publications.
+- URL ditulis lengkap tanpa tanggal akses
+- Tidak ada garis bawah
+
+
+3. CARA NGISI SKRIPSI (PANDUAN PRAKTIS)
+================================================================================
+
+3.1 BAB I - PENDAHULUAN
+--------------------------------------------------------------------------------
+
+A. Latar Belakang Masalah
+   Cara ngisi:
+   - Mulai dari konteks besar (perkembangan teknologi, pendidikan vokasi)
+   - Kerucutin ke masalah spesifik (di GSE, waktu kelas terbatas,
+     praktikum manual, persiapan lama)
+   - Kasih data/fakta pendukung (observasi, wawancara, referensi)
+   - Tunjukin kesenjangan (ideal vs nyata)
+   - Kasih solusi yang ditawarkan (trainer kit multi sensor)
+   - Akhiri dengan judul penelitian
+   - Panjang: 4-6 paragraf
+
+B. Identifikasi Masalah
+   Cara ngisi:
+   - Daftar masalah yang ditemukan (4-5 poin)
+   - Selaras dengan latar belakang
+   - Ditulis dalam poin-poin
+
+C. Batasan Masalah
+   Cara ngisi:
+   - Pilih masalah yang mau diteliti (dari identifikasi)
+   - Jelaskan limitasi (fokus, sensor, output, target, dll)
+   - Jelaskan apa yang TIDAK diteliti
+
+D. Rumusan Masalah
+   Cara ngisi:
+   - 3 poin pertanyaan (kalimat tanya)
+   - Sejajar dengan tujuan
+   - Contoh:
+     1. Bagaimana rancang bangun trainer kit...?
+     2. Bagaimana tingkat kelayakan...?
+     3. Bagaimana respons siswa...?
+
+E. Tujuan Penelitian
+   Cara ngisi:
+   - 3 poin tujuan (jawaban rumusan masalah)
+   - Sejajar dengan rumusan
+   - Contoh:
+     1. Mengembangkan trainer kit...
+     2. Mengetahui tingkat kelayakan...
+     3. Mengetahui respons siswa...
+
+F. Manfaat Penelitian
+   Cara ngisi:
+   - 4 poin: bagi GSE, siswa, peneliti, prodi
+   - Spesifik, bukan general
+   - Contoh: "Bagi GSE, penelitian ini memberikan media
+     pembelajaran yang praktis & efisien."
+
+G. Asumsi Pengembangan
+   Cara ngisi:
+   - Asumsi yang dipakai (misal: siswa sudah paham dasar elektronika)
+   - Sesuaikan kondisi
+
+H. Spesifikasi Produk
+   Cara ngisi:
+   - Dimensi, bahan, komponen, software, power, kelengkapan
+   - Tabel atau poin-poin
+
+
+3.2 BAB II - KAJIAN PUSTAKA
+--------------------------------------------------------------------------------
+
+A. Kajian Teori
+   Cara ngisi:
+   - Cari teori dari buku, jurnal, skripsi
+   - Setiap teori: definisi, konsep, penerapan
+   - Kutip sumber (APA 7th)
+   - Jangan cuma kumpulan kutipan, tapi dibahas
+   - Sub-bab:
+     1. Penelitian dan Pengembangan (R&D)
+     2. Media Pembelajaran
+     3. Arduino Uno
+     4. Sensor (LDR, Push Button, Ultrasonik, IR, DHT11, PIR)
+     5. Output (LED, Buzzer, LCD, Servo, RGB LED)
+     6. Elektronika Dasar
+     7. Pemrograman Mikrokontroler
+     8. Konteks Pembelajaran di GSE
+
+B. Penelitian yang Relevan
+   Cara ngisi:
+   - Cari 3-5 penelitian sebelumnya yang mirip
+   - Format: Nama (Tahun), judul, metode, hasil, persamaan,
+     perbedaan dengan penelitian ini
+   - Tunjukin kebaruan (novelty) penelitian lu
+
+C. Kerangka Berpikir
+   Cara ngisi:
+   - Alur logika: masalah -> solusi -> hasil
+   - Bikin bagan/diagram
+   - Jelaskan naratif di bawah bagan
+
+D. Pertanyaan Penelitian
+   Cara ngisi:
+   - 4 poin pertanyaan (bisa sama dengan rumusan, atau lebih spesifik)
+   - Sejajar dengan rumusan masalah
+
+
+3.3 BAB III - METODE PENELITIAN
+--------------------------------------------------------------------------------
+
+A. Jenis/Desain Penelitian
+   Cara ngisi:
+   - Metode: R&D
+   - Model: ADDIE
+   - Alasan pemilihan (sistematis, terstruktur, sesuai)
+
+B. Tempat dan Waktu Penelitian
+   Cara ngisi:
+   - Tempat: CV Global Solusi Edukasi
+   - Waktu: [isi]
+
+C. Subjek dan Objek Penelitian
+   Cara ngisi:
+   - Subjek: peserta didik jenjang menengah di GSE + dosen ahli
+   - Objek: trainer kit multi sensor
+
+D. Prosedur Pengembangan
+   Cara ngisi:
+   - 5 tahap ADDIE:
+     1. Analysis (analisis kebutuhan, kurikulum, karakteristik siswa)
+     2. Design (rancang hardware, modul, labsheet, instrumen)
+     3. Development (bikin trainer kit, modul, labsheet, validasi, revisi)
+     4. Implementation (uji coba ke siswa, ambil data)
+     5. Evaluation (analisis data, revisi akhir)
+
+E. Teknik dan Instrumen Pengumpulan Data
+   Cara ngisi:
+   - Teknik: angket, observasi, dokumentasi
+   - Instrumen: kisi-kisi ahli media, ahli materi, respons siswa
+   - Skala Likert 4 tingkat (STS, TS, S, SS)
+
+F. Validitas dan Reliabilitas Instrumen
+   Cara ngisi:
+   - Validitas: expert judgment (construct validity)
+   - Reliabilitas: Cronbach's Alpha (SPSS)
+
+G. Teknik Analisis Data
+   Cara ngisi:
+   - Deskriptif kuantitatif
+   - Skor maks/min, rerata ideal, simpangan baku ideal
+   - Kategori kelayakan (Sangat Layak, Layak, dll)
+
+
+3.4 BAB IV - HASIL DAN PEMBAHASAN
+--------------------------------------------------------------------------------
+
+A. Hasil Pengembangan Produk
+   Cara ngisi:
+   - Hasil per tahap ADDIE (Analysis, Design, Development,
+     Implementation, Evaluation)
+   - Data hasil pengembangan (spesifikasi, tampilan, dll)
+
+B. Hasil Uji Coba
+   Cara ngisi:
+   - Hasil validasi ahli media (skor, kategori)
+   - Hasil validasi ahli materi (skor, kategori)
+   - Hasil respons siswa (skor, kategori)
+   - Hasil uji reliabilitas (Cronbach's Alpha)
+
+C. Revisi Produk
+   Cara ngisi:
+   - Saran dari ahli (media & materi)
+   - Perbaikan yang dilakukan
+   - Tabel/bagan sebelum-sesudah
+
+D. Kajian Produk Akhir
+   Cara ngisi:
+   - Karakteristik produk akhir
+   - Spesifikasi
+   - Kemampuan operasional
+
+E. Keterbatasan Penelitian
+   Cara ngisi:
+   - Keterbatasan metodologi (bukan waktu/biaya)
+   - Contoh: simulasi belum mencakup hardware, dll
+
+
+3.5 BAB V - SIMPULAN DAN SARAN
+--------------------------------------------------------------------------------
+
+A. Simpulan
+   Cara ngisi:
+   - Jawaban rumusan masalah (3 poin)
+   - Deskripsi esensial, bukan angka
+   - Contoh: "Trainer kit berhasil dikembangkan..."
+
+B. Implikasi
+   Cara ngisi:
+   - Konsekuensi dari temuan
+   - Bahasa saran tapi belum operasional
+
+C. Saran
+   Cara ngisi:
+   - Rekomendasi untuk pihak terkait
+   - Bahasa operasional (spesifik)
+   - Contoh: "Pengembangan selanjutnya dapat menambahkan
+     sensor lain..."
+
+
+4. PANDUAN NULIS (BIAR NGGAK AI BANGET)
+================================================================================
+
+4.1 HINDARI POLA AI
+--------------------------------------------------------------------------------
+
+JANGAN PAKAI:
+- "Pertama, ... Kedua, ... Ketiga, ..." (berulang)
+- "Selain itu, ..." (terus-menerus)
+- "Pada era digital saat ini..."
+- "Seiring dengan perkembangan zaman..."
+- "Sangat penting untuk diperhatikan..."
+- "Dengan demikian, dapat disimpulkan bahwa..."
+- "Hal ini dikarenakan oleh..."
+- Bullet point berlebihan di narasi
+- Kalimat yang terlalu rapi dan seragam
+- Kata "sangat", "amat", "sekali" berlebihan
+
+PAKAI POLA MANUSIA:
+- Kalimat bervariasi (panjang-pendek)
+- Opini pribadi berbasis pengalaman
+- Data/fakta spesifik (bukan general)
+- Kutipan asli dari buku/jurnal
+- Contoh konkret dari lapangan (GSE)
+- Istilah teknis yang konsisten
+
+4.2 STYLE PENULISAN
+--------------------------------------------------------------------------------
+
+- Santai tapi formal
+- Fokus ke fakta, bukan teori muluk
+- Pakai contoh nyata dari GSE
+- Hindari kalimat yang terlalu "indah"
+- Jujur, nggak lebay
+- Kalau ragu, baca ulang sambil bayangin lu ngomong
+
+4.3 CONTOH KALIMAT
+--------------------------------------------------------------------------------
+
+AI BANGET:
+"Pada era digital saat ini, perkembangan teknologi
+semakin pesat. Hal ini dikarenakan oleh kebutuhan
+manusia yang semakin kompleks. Selain itu,
+perkembangan teknologi juga dipengaruhi oleh..."
+
+MANUSIA:
+"Perkembangan teknologi di bidang otomasi terus
+meningkat. Di GSE, saya melihat langsung bagaimana
+siswa SMP dan SMA belajar sensor dengan cara
+merangkai manual. Prosesnya memakan waktu,
+terutama karena durasi kelas hanya 60-90 menit."
+
+4.4 CEK SEBELUM SUBMIT
+--------------------------------------------------------------------------------
+
+- Baca ulang, pastikan nggak ada pola AI
+- Cek konsistensi istilah
+- Cek spasi, font, margin
+- Cek daftar pustaka
+- Cek nomor halaman
+- Cek kutipan (langsung/tidak langsung)
+- Minta teman baca, tanya "ini keliatan AI nggak?"
+
+
+5. CHECKLIST PER BAB
+================================================================================
+
+BAB I:
+[ ] Latar Belakang (data + fakta + research gap)
+[ ] Identifikasi Masalah (4-5 poin)
+[ ] Batasan Masalah (fokus + limitasi)
+[ ] Rumusan Masalah (3 poin)
+[ ] Tujuan Penelitian (3 poin, sejajar rumusan)
+[ ] Manfaat Penelitian (4 poin)
+[ ] Asumsi Pengembangan
+[ ] Spesifikasi Produk
+
+BAB II:
+[ ] Kajian Teori (8 sub-bab)
+[ ] Penelitian Relevan (min 3)
+[ ] Kerangka Berpikir (bagan)
+[ ] Pertanyaan Penelitian (4 poin)
+
+BAB III:
+[ ] Jenis/Desain (R&D ADDIE)
+[ ] Tempat & Waktu
+[ ] Subjek & Objek
+[ ] Prosedur (5 tahap ADDIE)
+[ ] Teknik & Instrumen (angket)
+[ ] Validitas & Reliabilitas
+[ ] Analisis Data
+
+BAB IV:
+[ ] Hasil Pengembangan
+[ ] Hasil Uji Coba (ahli + siswa)
+[ ] Revisi Produk
+[ ] Kajian Produk Akhir
+[ ] Keterbatasan
+
+BAB V:
+[ ] Simpulan
+[ ] Implikasi
+[ ] Saran
+
+
+6. REFERENSI & SUMBER
+================================================================================
+
+Skripsi Pembanding:
+- Farhan Yuda Mahendra (2026)
+  -> Dipakai buat referensi struktur BAB, gaya penulisan,
+     dan cara nulis pembahasan.
+  -> BUKAN buat contekan isi.
+- Aulia Shabrina Yuliani (2026)
+  -> Dipakai buat referensi struktur BAB, gaya penulisan,
+     dan cara nulis pembahasan.
+  -> BUKAN buat contekan isi.
+
+Catatan:
+- Farhan dan Aulia cuma dipakai buat gambaran struktur.
+- Isi skripsi tetap dari data & hasil penelitian sendiri.
+- Jangan sampai plagiat, cek sumber asli.
+- Kalau butuh referensi lain, cari sendiri dulu.
+  Nanti kalau udah ketemu, tinggal ditambahin di sini.
+
+Buku Wajib:
+- Sugiyono (2023) - Metode Penelitian
+- Branch (2009) - Instructional Design: ADDIE
+- [tambahkan nanti]
+
+Jurnal Wajib:
+- [tambahkan nanti]
+
+Datasheet Komponen:
+- Arduino Uno
+- LDR
+- Ultrasonik HC-SR04
+- IR Obstacle
+- DHT11
+- PIR
+- LCD 16x2 I2C
+- Servo
+- Buzzer
+- RGB LED
+
+Link Referensi:
+- [tambahkan nanti]
+
+
+7. LOG PROGRESS
+================================================================================
+
+TANGGAL     | KEGIATAN                    | HASIL
+------------|-----------------------------|------------------
+[dd/mm/yy]  | Konsul Pak Yuwono           | [catat arahan]
+[dd/mm/yy]  | Baca skripsi Farhan         | [catat insight]
+[dd/mm/yy]  | Baca skripsi Aulia          | [catat insight]
+[dd/mm/yy]  | Mulai BAB I                 | [progress]
+[dd/mm/yy]  | [kegiatan lain]             | [hasil]
+
+
+8. ATURAN KONSISTENSI
+================================================================================
+
+ISTILAH:
+- "trainer kit" (konsisten)
+- "mikrokontroler" (bukan "microcontroller")
+- "R&D" (bukan "R and D" atau "RnD")
+- "Arduino Uno" (bukan "arduino uno")
+- "Internet of Things (IoT)" (penulisan lengkap di awal)
+- "media pembelajaran" (konsisten)
+
+SINGKATAN:
+- R&D = Research and Development
+- ADDIE = Analysis, Design, Development, Implementation, Evaluation
+- GSE = Global Solusi Edukasi
+- UNY = Universitas Negeri Yogyakarta
+- PTM = Pendidikan Teknik Mekatronika
+
+NAMA SENSOR:
+- "LDR" atau "Light Dependent Resistor"
+- "Ultrasonik HC-SR04"
+- "IR Obstacle"
+- "DHT11"
+- "PIR"
+- "Push Button"
+
+NAMA OUTPUT:
+- "LED"
+- "Buzzer"
+- "LCD 16x2 I2C"
+- "Servo"
+- "RGB LED"
+
+
+9. TEMPLATE & CONTOH
+================================================================================
+
+9.1 TEMPLATE HALAMAN SAMPUL
+--------------------------------------------------------------------------------
+
+[JUDUL DITULIS KAPITAL, BOLD, TNR 12, SPASI 1, RATA TENGAH]
+
+TUGAS AKHIR SKRIPSI
+
+[Logo UNY]
+
+Ditulis untuk memenuhi sebagian persyaratan
+guna mendapatkan gelar Sarjana Pendidikan
+Program Studi Pendidikan Teknik Mekatronika
+
+Oleh:
+Raiya Yusuf Priatmojo
+NIM 22518244004
+
+FAKULTAS TEKNIK
+UNIVERSITAS NEGERI YOGYAKARTA
+2026
+
+9.2 TEMPLATE ABSTRAK
+--------------------------------------------------------------------------------
+
+ABSTRAK
+
+[Paragraf 1: Tujuan penelitian]
+[Paragraf 2: Metode penelitian]
+[Paragraf 3: Hasil, simpulan, saran]
+
+Kata kunci: [max 5 kata, alfabetis]
+
+Catatan: Maksimal 250 kata, spasi tunggal, 1 halaman
+
+9.3 TEMPLATE KATA PENGANTAR
+--------------------------------------------------------------------------------
+
+KATA PENGANTAR
+
+Puji syukur ke hadirat Tuhan Yang Maha Esa atas...
+[uraian singkat]
+
+Penulis menyampaikan terima kasih kepada:
+1. [Nama dosen pembimbing]
+2. [Nama pihak lain]
+...
+
+Yogyakarta, [tanggal]
+Penulis,
+
+Raiya Yusuf Priatmojo
+NIM 22518244004
+
+9.4 TEMPLATE DAFTAR PUSTAKA
+--------------------------------------------------------------------------------
+
+DAFTAR PUSTAKA
+
+[Alfabetis, spasi tunggal, jarak antar-pustaka 2 spasi]
+
+Contoh:
+Creswell, J.W. (2018). Research design. SAGE Publications.
+
+Sugiyono. (2023). Metode penelitian kuantitatif, kualitatif, dan R&D
+(Edisi Kedua). CV Alfabeta.
+
+[URL ditulis lengkap, tanpa tanggal akses]
+
+
+10. ATURAN DARURAT
+================================================================================
+
+REVISI DOSEN:
+- [catat tanggal, arahan, tindakan]
+- [catat tanggal, arahan, tindakan]
+
+MASALAH:
+- [catat masalah, solusi]
+- [catat masalah, solusi]
+
+IDE BARU:
+- [catat ide, evaluasi]
+- [catat ide, evaluasi]
+
+
+================================================================================
+                        END OF BLUEPRINT
+================================================================================
+
+Catatan:
+Dokumen ini adalah panduan internal.
+Update seiring perkembangan. Jangan kasih ke dosen.
+Ini buat lu sendiri.
+Versi: 1.1
+Tanggal: [isi tanggal]
