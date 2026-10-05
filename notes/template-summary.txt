@@ -1,0 +1,255 @@
+============================================================
+TEMPLATE PROMPT UNTUK MINTA SUMMARY PROJECT SKRIPSI
+============================================================
+
+------------------------------------------------------------
+FUNGSI
+------------------------------------------------------------
+Digunakan untuk meminta AI (DeepSeek/ChatGPT/Claude) membuat
+rangkuman project skripsi dengan format yang sudah ditentukan.
+Hasil summary ini nanti bisa dipake buat pindah ke chat baru.
+
+------------------------------------------------------------
+TEMPLATE PROMPT (COPY KE CHAT)
+------------------------------------------------------------
+
+Tolong buatkan rangkuman lengkap project skripsi saya dengan
+format di bawah ini, berdasarkan seluruh percakapan kita
+sebelumnya. Jawab semua pertanyaan di bawah dengan detail,
+jangan ada yang kelewat.
+
+---
+
+RANGKUMAN LENGKAP PROJECT SKRIPSI
+[TANGGAL/WAKTU RANGKUMAN]
+
+============================================================
+1. STATUS TERAKHIR
+============================================================
+
+- Apa yang terakhir kita kerjakan/bahas?
+- Sampai mana progress terakhir?
+- Apa yang lagi jadi fokus sekarang?
+
+============================================================
+2. YANG UDAH SELESAI
+============================================================
+
+✅ [List semua yang udah selesai, detail]
+
+Contoh:
+✅ Diskusi topik & judul
+✅ Fix metode: R&D ADDIE
+✅ Fix mikrokontroler: Arduino Uno
+✅ Fix sensor: LDR, Push Button, HC-SR04, IR, DHT11, PIR
+✅ Fix output: LED, Buzzer, LCD, Servo, RGB LED
+✅ Fix target: Siswa SMP-SMA di GSE
+✅ Fix subjek: 32 peserta didik + 2 ahli media + 2 ahli materi
+✅ Fix fokus: Kelayakan + Kepraktisan
+✅ Draft latar belakang (8 paragraf)
+✅ Kerangka lengkap BAB I-V
+✅ Kumpulin referensi (14 file)
+✅ Bikin blueprint skripsi
+
+============================================================
+3. YANG BELUM SELESAI
+============================================================
+
+🔜 [List yang belum dikerjakan, detail]
+
+Contoh:
+🔜 BAB I: Identifikasi Masalah, Batasan, Rumusan, Tujuan,
+   Manfaat, Asumsi, Spesifikasi Produk
+🔜 BAB II: Kajian Teori (8 sub-bab), Penelitian Relevan,
+   Kerangka Berpikir, Pertanyaan Penelitian
+🔜 BAB III: Metode Penelitian lengkap
+🔜 Instrumen: Kisi-kisi ahli media, ahli materi, respons siswa
+🔜 Modul & Labsheet
+🔜 Analisis data
+🔜 BAB IV: Hasil & Pembahasan
+🔜 BAB V: Simpulan & Saran
+🔜 Daftar Pustaka
+
+============================================================
+4. KEPUTUSAN PENTING YANG UDAH DISEPAKATI
+============================================================
+
+- [Keputusan 1]
+- [Keputusan 2]
+- [Keputusan 3]
+
+Contoh:
+- Metode: R&D ADDIE (bukan 4D, bukan Borg & Gall)
+- Mikrokontroler: Arduino Uno (bukan ESP32)
+- Fokus: Kelayakan + Kepraktisan (bukan hasil belajar)
+- Target: Siswa SMP-SMA di GSE (bukan mahasiswa)
+- Judul sementara: "Pengembangan Trainer Kit Multi Sensor
+  Berbasis Arduino Uno sebagai Media Pembelajaran Sensor dan
+  Aktuator untuk Peserta Didik Jenjang Menengah di CV Global
+  Solusi Edukasi" (19 kata)
+
+============================================================
+5. IDENTITAS SKRIPSI
+============================================================
+
+- Nama: Raiya Yusuf Priatmojo
+- NIM: 22518244004
+- Prodi: Pendidikan Teknik Mekatronika
+- Fakultas: Teknik, UNY
+- Dosen: [isi]
+- Judul: [isi]
+- Metode: R&D ADDIE
+- Fokus: Kelayakan + Kepraktisan
+
+============================================================
+6. KEPUTUSAN TEKNIS
+============================================================
+
+- Mikrokontroler: Arduino Uno
+- Sensor: [list]
+- Output: [list]
+- Target: Siswa SMP-SMA di GSE
+- Subjek: 32 peserta didik + 2 ahli media + 2 ahli materi
+
+============================================================
+7. STRUKTUR SKRIPSI
+============================================================
+
+- BAB I: Pendahuluan
+  A. Latar Belakang
+  B. Identifikasi Masalah
+  C. Batasan Masalah
+  D. Rumusan Masalah
+  E. Tujuan Penelitian
+  F. Manfaat Penelitian
+  G. Asumsi Pengembangan
+  H. Spesifikasi Produk
+
+- BAB II: Kajian Pustaka
+  A. Kajian Teori
+     1. Penelitian dan Pengembangan (R&D)
+     2. Media Pembelajaran
+     3. Arduino Uno
+     4. Sensor
+     5. Output
+     6. Elektronika Dasar
+     7. Pemrograman Mikrokontroler
+     8. Konteks Pembelajaran di GSE
+  B. Penelitian yang Relevan
+  C. Kerangka Berpikir
+  D. Pertanyaan Penelitian
+
+- BAB III: Metode Penelitian
+  A. Jenis/Desain Penelitian
+  B. Tempat dan Waktu Penelitian
+  C. Subjek dan Objek Penelitian
+  D. Prosedur Pengembangan
+  E. Teknik dan Instrumen Pengumpulan Data
+  F. Validitas dan Reliabilitas Instrumen
+  G. Teknik Analisis Data
+
+- BAB IV: Hasil dan Pembahasan
+  A. Hasil Pengembangan Produk
+  B. Hasil Uji Coba
+  C. Revisi Produk
+  D. Kajian Produk Akhir
+  E. Keterbatasan Penelitian
+
+- BAB V: Simpulan dan Saran
+  A. Simpulan
+  B. Implikasi
+  C. Saran
+
+============================================================
+8. FILE YANG UDAH DIKIRIM KE AI
+============================================================
+
+- [List file yang udah dikirim]
+
+Contoh:
+- Laporan PI
+- Skripsi Farhan
+- Skripsi Aulia
+- Panduan Skripsi UNY 2023
+- Tabel Materi IoT GSE
+- Foto Trainer Kit
+- Blueprint Skripsi
+- Latar Belakang Farhan, Aulia, Arvin
+- Jurnal Dani Usman
+- Jurnal Fajarot
+- Skripsi Arvin
+- Jurnal Nanda AlFaris
+
+============================================================
+9. REFERENSI YANG UDAH DIKUMPULKAN
+============================================================
+
+- [List referensi]
+
+Contoh:
+- Wicaksono (2016) — Trainer Kit Sensor
+- Nur & Suprianto (2016) — Trainer Kit Sensor Arduino
+- Usman & Pratiwi (2022) — Trainer Multi-Sensor Arduino
+- AlFaris et al. (2026) — Training Kit Multi Sensor Smart Relay
+- Farhan (2026) — Virtual Smart Factory
+- Aulia (2026) — Sensor Flex
+
+============================================================
+10. KUTIPAN YANG UDAH DIPAKAI DI LATAR BELAKANG
+============================================================
+
+- [List kutipan]
+
+Contoh:
+- Galar & Kumar (2024)
+- Arsyad (2013)
+- Miranda et al. (2022)
+- Wicaksono (2016)
+- Nur & Suprianto (2016)
+- Usman & Pratiwi (2022)
+- AlFaris et al. (2026)
+
+============================================================
+11. PERTANYAAN YANG BELUM TERJAWAB
+============================================================
+
+- [Pertanyaan 1]
+- [Pertanyaan 2]
+
+Contoh:
+- Dosen pembimbing: Pak Yuwono atau Bu Amel?
+- Judul final: Opsi A, B, atau C?
+- Aspek kepraktisan: Dari 7 aspek, mana yang mau diukur?
+- Referensi: Masih perlu cari lagi?
+
+============================================================
+12. YANG PERLU DILANJUTKAN
+============================================================
+
+- [Prioritas selanjutnya]
+
+Contoh:
+- Konsul dosen
+- Fix judul
+- Lanjut BAB I
+- Lanjut BAB II
+- Bikin instrumen
+
+============================================================
+13. CATATAN PENTING LAINNYA
+============================================================
+
+- [Catatan 1]
+- [Catatan 2]
+
+Contoh:
+- Skripsi Arvin (2015) pakai ATMega32, bukan Arduino Uno
+- Skripsi Farhan & Aulia pakai R&D ADDIE
+- Jurnal Dani & Fajarot pakai trainer kit sensor
+- Jurnal Nanda pakai Smart Relay Zelio
+- Limit chat: [isi]
+- Tanggal mulai: [isi]
+
+============================================================
+END OF TEMPLATE
+============================================================

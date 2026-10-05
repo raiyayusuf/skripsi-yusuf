@@ -1,0 +1,263 @@
+============================================================
+TEMPLATE INTRO CHAT BARU - SKRIPSI
+============================================================
+
+------------------------------------------------------------
+FUNGSI
+------------------------------------------------------------
+Digunakan untuk memulai chat baru dengan AI. Template ini
+berisi:
+1. Sapaan & konteks
+2. Identitas mahasiswa
+3. Identitas dosen pembimbing
+4. Konteks lokasi penelitian (GSE)
+5. Summary project (dari chat lama)
+6. Daftar file yang dikirim
+7. Daftar file yang belum dikirim
+8. Pertanyaan / permintaan bantuan
+
+Hasilnya: AI langsung paham konteks, nggak mulai dari nol.
+
+------------------------------------------------------------
+TEMPLATE PROMPT (COPY KE CHAT BARU)
+------------------------------------------------------------
+
+Halo, gue Raiya. Gue lagi ngerjain skripsi dan butuh bantuan
+lu buat nemenin prosesnya. Ini chat baru karena chat
+sebelumnya udah limit.
+
+============================================================
+IDENTITAS MAHASISWA
+============================================================
+
+- Nama: Raiya Yusuf Priatmojo
+- NIM: 22518244004
+- Prodi: Pendidikan Teknik Mekatronika
+- Fakultas: Teknik
+- Kampus: Universitas Negeri Yogyakarta (UNY)
+- Angkatan: 2022
+- Dosen Pembimbing: Yuwono Indro Hatmojo
+  NIP: 19760720 200112 1 002
+
+============================================================
+KONTEKS LOKASI PENELITIAN
+============================================================
+
+- Nama Lembaga: CV Global Solusi Edukasi (GSE)
+- Alamat: Jl. Gendeng Cantel UH 2 No.321, RT.001/RW.001,
+  Baciro, Kec. Gondokusuman, Kota Yogyakarta,
+  Daerah Istimewa Yogyakarta 55165
+- Bidang: Lembaga pelatihan teknologi
+  (robotika, IoT, coding, visual design)
+- Target: Siswa jenjang menengah (SMP-SMA)
+- Kelas yang relevan: Robot Inovasi (Robotik Dasar)
+- Kelas lain: Robotik uKit, Coding Scratch, Coding Python, IoT
+- Konteks: Gue mentor di GSE
+- Durasi kelas: 60-90 menit per pertemuan
+- Persiapan praktikum: 15-20 menit
+- Jumlah siswa per kelas: 18-20
+- Rasio trainer: 2-3 orang per trainer
+
+============================================================
+SUMMARY PROJECT SKRIPSI
+============================================================
+
+[PASTE SUMMARY PROJECT DI SINI]
+
+============================================================
+FILE YANG GUE KIRIM DI CHAT INI
+============================================================
+
+[x] 01-laporan-pi.pdf
+[x] 02-skripsi-farhan.pdf
+[x] 03-skripsi-aulia.pdf
+[x] 04-panduan-uny-2023.pdf
+[x] 05-tabel-materi-gse.txt
+[x] 06-foto-trainer-kit.jpg
+[x] 07-blueprint-skripsi.txt
+[x] 08-latar-farhan.txt
+[x] 09-latar-aulia.txt
+[x] 10-latar-arvin.txt
+[x] 11-jurnal-dani.pdf
+[x] 12-jurnal-fajarot.pdf
+[x] 13-skripsi-arvin.pdf
+[x] 14-jurnal-nanda.pdf
+[x] 15-draft-latar-belakang.txt
+[x] 16-kerangka-lengkap.txt
+[x] summary-skripsi.txt
+
+FILE YANG BELUM GUE KIRIM (KARENA LIMIT / BELUM ADA):
+
+[ ] [isi file yang belum dikirim]
+[ ] [isi file yang belum dikirim]
+
+============================================================
+YANG GUE BUTUHIN BANTUAN LU SEKARANG
+============================================================
+
+[Pilih / isi yang mau lu kerjain]
+
+[ ] Nyusun BAB I (Identifikasi, Batasan, Rumusan, dll)
+[ ] Nyusun BAB II (Kajian Teori)
+[ ] Nyusun BAB II (Penelitian Relevan)
+[ ] Nyusun BAB II (Kerangka Berpikir)
+[ ] Nyusun BAB III (Metode Penelitian)
+[ ] Bikin instrumen (kisi-kisi ahli media)
+[ ] Bikin instrumen (kisi-kisi ahli materi)
+[ ] Bikin instrumen (kisi-kisi respons siswa)
+[ ] Bikin modul ajar
+[ ] Bikin labsheet
+[ ] Bikin cover skripsi
+[ ] Bikin abstrak & abstract
+[ ] Bikin kata pengantar
+[ ] Bikin daftar isi, tabel, gambar, lampiran
+[ ] Analisis data
+[ ] Nyusun BAB IV (Hasil & Pembahasan)
+[ ] Nyusun BAB V (Simpulan & Saran)
+[ ] Cari referensi
+[ ] Bantu nulis
+[ ] Bantu koreksi
+[ ] Lainnya: [isi]
+
+============================================================
+YANG GUE MAU LU TAU TENTANG GUE
+============================================================
+
+- Gue lebih nyaman ngoding
+- Gue target lulus cepat
+- Gue butuh bantuan di BAB I-V
+- Gue pake bahasa santai
+- Gue suka diskusi dulu sebelum eksekusi
+- Gue nggak mau lu nge-generate tanpa gue suruh
+- Gue nggak mau lu nge-gas tanpa gue kasih perintah
+- Gue mentor di GSE
+- Gue ngajar kelas Robot Inovasi & IoT
+
+============================================================
+ATURAN MAIN
+============================================================
+
+1. Kalau gue bilang "diskusi dulu", jangan generate
+2. Kalau gue bilang "gas", baru generate
+3. Kalau gue bilang "koreksi", bantu koreksi
+4. Kalau gue bilang "lanjut", lanjut ke step berikutnya
+5. Selalu tanya dulu kalau ada yang kurang jelas
+6. Jangan lebay, jangan formal banget
+7. Pake bahasa santai, kayak temen seperjuangan
+8. Jangan lupa update summary kalau ada progress baru
+9. Jangan kasih ke dosen, ini internal
+10. Jangan plagiat, cek sumber asli
+
+============================================================
+PERTANYAAN YANG BELUM TERJAWAB
+============================================================
+
+- Judul final: Opsi A, B, atau C?
+- Aspek kepraktisan: Dari 7 aspek, mana yang mau diukur?
+- Referensi: Masih perlu cari lagi?
+- Cover skripsi: Kapan mau bikin?
+- Format Word: Udah sesuai panduan?
+- Instrumen: Berapa butir per angket?
+- Modul & Labsheet: Kapan mau bikin?
+
+============================================================
+GAS BREE, BANTU GUE YAH. 🔥
+============================================================
+
+------------------------------------------------------------
+END OF TEMPLATE
+------------------------------------------------------------
+
+============================================================
+DAFTAR FILE YANG PERLU DIKIRIM DI AWAL CHAT BARU
+============================================================
+
+------------------------------------------------------------
+PRIORITAS 1: WAJIB (KALAU BISA DIKIRIM SEMUA)
+------------------------------------------------------------
+
+1. 04-panduan-uny-2023.pdf
+   → Panduan resmi penulisan skripsi UNY
+   → Fungsi: aturan penulisan, format, sistematika
+
+2. 02-skripsi-farhan.pdf
+   → Skripsi pembanding (Virtual Smart Factory)
+   → Fungsi: referensi struktur, metode R&D ADDIE
+
+3. 03-skripsi-aulia.pdf
+   → Skripsi pembanding (Sensor Flex)
+   → Fungsi: referensi struktur, metode R&D ADDIE
+
+4. 13-skripsi-arvin.pdf
+   → Skripsi pembanding (Trainer Kit Sensor)
+   → Fungsi: referensi paling dekat sama topik lu
+
+5. 11-jurnal-dani.pdf
+   → Jurnal (Trainer Multi-Sensor Arduino)
+   → Fungsi: penelitian relevan
+
+6. 12-jurnal-fajarot.pdf
+   → Jurnal (Trainer Kit Sensor Arduino)
+   → Fungsi: penelitian relevan
+
+7. 14-jurnal-nanda.pdf
+   → Jurnal (Training Kit Multi Sensor Smart Relay)
+   → Fungsi: penelitian relevan
+
+8. 15-draft-latar-belakang.txt
+   → Draft latar belakang lu
+   → Fungsi: bahan koreksi & lanjutan
+
+9. 16-kerangka-lengkap.txt
+   → Kerangka lengkap BAB I-V
+   → Fungsi: panduan nyusun
+
+10. summary-skripsi.txt
+    → Summary project dari chat lama
+    → Fungsi: konteks buat AI
+
+------------------------------------------------------------
+PRIORITAS 2: PENDUKUNG (KALAU BISA DIKIRIM)
+------------------------------------------------------------
+
+11. 01-laporan-pi.pdf
+    → Laporan PI lu di GSE
+    → Fungsi: konteks GSE
+
+12. 05-tabel-materi-gse.txt
+    → Tabel materi IoT GSE
+    → Fungsi: konteks materi
+
+13. 06-foto-trainer-kit.jpg
+    → Foto trainer kit referensi
+    → Fungsi: referensi desain
+
+14. 07-blueprint-skripsi.txt
+    → Blueprint skripsi lu
+    → Fungsi: panduan internal
+
+15. 08-latar-farhan.txt
+    → Latar belakang Farhan
+    → Fungsi: referensi nulis
+
+16. 09-latar-aulia.txt
+    → Latar belakang Aulia
+    → Fungsi: referensi nulis
+
+17. 10-latar-arvin.txt
+    → Latar belakang Arvin
+    → Fungsi: referensi nulis
+
+------------------------------------------------------------
+PRIORITAS 3: KALAU ADA (OPSIONAL)
+------------------------------------------------------------
+
+18. Referensi lain (jurnal/buku)
+19. Data spesifik GSE (jumlah siswa, dll)
+20. Instrumen yang udah dibuat
+21. Modul & labsheet yang udah dibuat
+22. Draft BAB yang udah dibuat
+
+============================================================
+END OF TEMPLATE
+============================================================
