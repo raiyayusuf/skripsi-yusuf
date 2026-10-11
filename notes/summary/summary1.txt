@@ -1,6 +1,6 @@
 ============================================================
 RANGKUMAN LENGKAP PROJECT SKRIPSI
-[Tanggal: 6 Oktober 2026]
+[Tanggal: 7 Oktober 2026]
 ============================================================
 
 ============================================================
@@ -8,23 +8,26 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
 ============================================================
 
 - Apa yang terakhir kita kerjakan/bahas?
-  → Lagi nyusun KERANGKA LENGKAP SKRIPSI (BAB I-V).
-    Sebelumnya udah bikin DRAFT LATAR BELAKANG (8 paragraf)
-    yang udah dimodifikasi sesuai hasil diskusi.
+  → PROPOSAL PENGAJUAN DANA KE GSE udah JADI (PDF).
+    Proposal ini diajukan ke CV Global Solusi Edukasi
+    tanggal 7 Oktober 2026.
+  → Sebelumnya udah bikin DRAFT LATAR BELAKANG (8 paragraf)
+    untuk skripsi.
+  → Lagi update summary project.
 
 - Sampai mana progress terakhir?
-  → BAB I: Baru selesai Latar Belakang (draft).
-    Bagian lain (Identifikasi, Batasan, Rumusan, Tujuan,
-    Manfaat, Asumsi, Spesifikasi) belum.
-  → BAB II-V: Baru kerangka, belum isi.
+  → PROPOSAL GSE: ✅ SELESAI (PDF)
+  → SKRIPSI BAB I: Latar Belakang (draft)
+  → SKRIPSI BAB II-V: Baru kerangka
 
 - Apa yang lagi jadi fokus sekarang?
-  → Mau lanjut nyusun BAB I bagian selanjutnya
-    (Identifikasi Masalah, Batasan, Rumusan, Tujuan,
-    Manfaat, Asumsi, Spesifikasi Produk).
-  → Mau konsul dosen dulu buat fix judul.
-  → Mau bikin template summary biar bisa pindah chat
-    kalau limit.
+  → Nyusun BAB I skripsi (Identifikasi, Batasan, Rumusan,
+    Tujuan, Manfaat, Asumsi, Spesifikasi)
+  → Nyusun BAB II (Kajian Teori, Penelitian Relevan,
+    Kerangka Berpikir, Pertanyaan Penelitian)
+  → Bikin instrumen penelitian
+  → List RAB (mandiri)
+  → Konsul dosen
 
 ============================================================
 2. YANG UDAH SELESAI
@@ -34,6 +37,12 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
    - Topik: Trainer Kit Multi Sensor Berbasis Arduino Uno
    - Target: Siswa SMP-SMA di GSE
    - Konteks: Kelas Robot Inovasi di GSE
+
+✅ Fix judul final (FIX):
+   "Pengembangan Trainer Kit Multi Sensor Berbasis Arduino Uno
+   sebagai Media Pembelajaran Sensor dan Aktuator
+   di CV Global Solusi Edukasi"
+   - Jumlah kata: 19 kata (<= 20 kata, sesuai Panduan UNY 2023)
 
 ✅ Fix metode: R&D ADDIE
    - Metode: Research and Development (R&D)
@@ -67,17 +76,21 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
    - Jumlah siswa: 18-20 per kelas
    - Rasio trainer: 2-3 orang per trainer
 
-✅ Fix subjek: 32 peserta didik + 2 ahli media + 2 ahli materi
+✅ Fix subjek: 30 peserta didik + 2 ahli media + 2 ahli materi
    - Ahli: 2 ahli media + 2 ahli materi
-   - Pengguna: 32 peserta didik
-   - Total: 36
+   - Pengguna: 30 peserta didik (FIX)
+   - Total: 34
 
 ✅ Fix fokus: Kelayakan + Kepraktisan
    - Bukan hasil belajar (ribet)
    - Kelayakan: validasi ahli media & materi
    - Kepraktisan: respons peserta didik
 
-✅ Draft latar belakang (8 paragraf)
+✅ Fix dosen pembimbing (FIX):
+   - Nama: Yuwono Indro Hatmojo
+   - NIP: 19760720 200112 1 002
+
+✅ Draft latar belakang skripsi (8 paragraf)
    - Paragraf 1: Konteks besar (Revolusi Industri 4.0)
    - Paragraf 2: Pendidikan vokasi & GSE
    - Paragraf 3: Profil GSE & kelas Robot Inovasi
@@ -87,6 +100,20 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
    - Paragraf 7: Solusi (trainer kit multi sensor)
    - Paragraf 8: Alasan pemilihan Arduino Uno
    - Paragraf 9: Judul penelitian
+
+✅ PROPOSAL PENGAJUAN DANA KE GSE (PDF) — SELESAI
+   - Tanggal pengajuan: 7 Oktober 2026
+   - Cover 1: Logo GSE + judul + tujuan + alamat
+   - Cover 2: Logo UNY + maksud penulisan
+   - A. Latar Belakang (5 paragraf)
+   - B. Tujuan Pengajuan Dana (6 poin)
+   - C. Ruang Lingkup Penelitian (5 poin)
+   - D. Rencana Produk (3 komponen)
+   - E. RAB (narasi + link, total belum diisi)
+   - F. Waktu Penelitian (Okt-Des 2026 + tabel ADDIE)
+   - G. Output (5 luaran)
+   - H. Manfaat untuk GSE (5 poin)
+   - I. Penutup (5 paragraf)
 
 ✅ Kerangka lengkap BAB I-V
    - BAB I: Pendahuluan (A-H)
@@ -115,7 +142,7 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
      Panduan Nulis, Struktur, Checklist, Referensi,
      Log Progress, Aturan Konsistensi, Template
 
-✅ Analisis 5 skripsi/jurnal pembanding
+✅ Analisis 6 skripsi/jurnal pembanding
    - Arvin (2015): Trainer Kit Sensor, ATMega32
    - Farhan (2026): Virtual Smart Factory, R&D ADDIE
    - Aulia (2026): Sensor Flex, ESP32, R&D ADDIE
@@ -126,10 +153,18 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
 ✅ Bikin template summary & onboarding
    - Template summary project skripsi (13 poin)
    - Template onboarding chat baru
+   - Template intro chat baru (lengkap)
+
+✅ Git & GitHub
+   - Push repo skripsi-yusuf
+   - Setup Git LFS untuk file PDF besar
+   - File besar (54 MB) udah aman
 
 ============================================================
 3. YANG BELUM SELESAI
 ============================================================
+
+🔜 PROPOSAL GSE: RAB total belum diisi (menyusul mandiri)
 
 🔜 BAB I: Identifikasi Masalah
 🔜 BAB I: Batasan Masalah
@@ -180,16 +215,17 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
 4. KEPUTUSAN PENTING YANG UDAH DISEPAKATI
 ============================================================
 
-- Metode: R&D ADDIE (bukan 4D, bukan Borg & Gall)
+- Metode: R&D ADDIE
 - Mikrokontroler: Arduino Uno (bukan ESP32)
 - Fokus: Kelayakan + Kepraktisan (bukan hasil belajar)
 - Target: Siswa SMP-SMA di GSE (bukan mahasiswa)
 - Konteks: Kelas Robot Inovasi di GSE
-- Subjek: 32 peserta didik + 2 ahli media + 2 ahli materi
-- Judul sementara: "Pengembangan Trainer Kit Multi Sensor
+- Subjek: 30 peserta didik + 2 ahli media + 2 ahli materi
+- Judul FIX: "Pengembangan Trainer Kit Multi Sensor
   Berbasis Arduino Uno sebagai Media Pembelajaran Sensor dan
-  Aktuator untuk Peserta Didik Jenjang Menengah di CV Global
-  Solusi Edukasi" (19 kata)
+  Aktuator di CV Global Solusi Edukasi" (19 kata)
+- Dosen FIX: Yuwono Indro Hatmojo
+  NIP: 19760720 200112 1 002
 - Sensor: LDR, Push Button, HC-SR04, IR, DHT11, PIR
 - Output: LED, Buzzer, LCD, Servo, RGB LED
 - Jumlah kata judul: max 20 kata (Panduan UNY 2023)
@@ -198,6 +234,8 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
 - Skripsi Farhan & Aulia pakai R&D ADDIE
 - Jurnal Dani & Fajarot pakai trainer kit sensor
 - Jurnal Nanda pakai Smart Relay Zelio
+- Proposal GSE diajukan tanggal 7 Oktober 2026
+- RAB total belum diisi (menyusul mandiri)
 
 ============================================================
 5. IDENTITAS SKRIPSI
@@ -208,8 +246,11 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
 - Prodi: Pendidikan Teknik Mekatronika
 - Fakultas: Teknik, UNY
 - Kampus: Universitas Negeri Yogyakarta
-- Dosen: [belum fix — Pak Yuwono atau Bu Amel?]
-- Judul: [belum fix, nunggu konsul]
+- Dosen: Yuwono Indro Hatmojo
+  NIP: 19760720 200112 1 002
+- Judul: "Pengembangan Trainer Kit Multi Sensor Berbasis
+  Arduino Uno sebagai Media Pembelajaran Sensor dan Aktuator
+  di CV Global Solusi Edukasi" (FIX)
 - Metode: R&D ADDIE
 - Fokus: Kelayakan + Kepraktisan
 
@@ -221,13 +262,16 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
 - Sensor: LDR, Push Button, HC-SR04, IR, DHT11, PIR
 - Output: LED, Buzzer, LCD, Servo, RGB LED
 - Target: Siswa SMP-SMA di GSE
-- Subjek: 32 peserta didik + 2 ahli media + 2 ahli materi
+- Subjek: 30 peserta didik + 2 ahli media + 2 ahli materi
 - Rasio trainer: 2-3 orang per trainer
 - Durasi kelas: 60-90 menit
 - Persiapan: 15-20 menit
 - Jumlah siswa per kelas: 18-20
 - Konsep trainer: Plug-and-play
 - Kelengkapan: Modul ajar + Labsheet
+- Lokasi penelitian: CV Global Solusi Edukasi (GSE)
+- Alamat: Jl. Gendeng Cantel UH 2 No.321, RT.001/RW.001,
+  Baciro, Kec. Gondokusuman, Kota Yogyakarta, DIY 55165
 
 ============================================================
 7. STRUKTUR SKRIPSI
@@ -307,6 +351,9 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
 - Perkembangan teknologi di bidang otomasi dan.txt
   (draft latar belakang lu)
 - ==================================================.txt (template summary)
+- Proposal Pengajuan Dana - Raiya Yusuf Priatmojo -
+  22518244004.pdf (PROPOSAL GSE - SELESAI)
+- Microsoft Windows [Version 10.0.22621.4317].txt (git log)
 
 ============================================================
 9. REFERENSI YANG UDAH DIKUMPULKAN
@@ -346,21 +393,23 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
 11. PERTANYAAN YANG BELUM TERJAWAB
 ============================================================
 
-- Dosen pembimbing: Pak Yuwono atau Bu Amel?
-- Judul final: Opsi A, B, atau C?
 - Aspek kepraktisan: Dari 7 aspek, mana yang mau diukur?
 - Referensi: Masih perlu cari lagi?
 - Cover skripsi: Kapan mau bikin?
 - Format Word: Udah sesuai panduan?
 - Instrumen: Berapa butir per angket?
 - Modul & Labsheet: Kapan mau bikin?
+- RAB total: Berapa? (menyusul mandiri)
+- Penulisan GSE: Di teks pake "GSE" atau "CV Global
+  Solusi Edukasi"?
+- Minimal daftar pustaka: Berapa?
+- Surat serah terima produk: Untuk syarat apa?
 
 ============================================================
 12. YANG PERLU DILANJUTKAN
 ============================================================
 
-- Konsul dosen (Pak Yuwono / Bu Amel)
-- Fix judul final
+- Konsul dosen (Pak Yuwono)
 - Lanjut BAB I (Identifikasi, Batasan, Rumusan, Tujuan,
   Manfaat, Asumsi, Spesifikasi)
 - Lanjut BAB II (Kajian Teori 8 sub-bab)
@@ -379,6 +428,7 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
 - BAB IV (Hasil & Pembahasan)
 - BAB V (Simpulan & Saran)
 - Daftar Pustaka
+- List RAB (mandiri)
 
 ============================================================
 13. CATATAN PENTING LAINNYA
@@ -396,6 +446,7 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
 - Kutipan: APA 7th Edition
 - Daftar Pustaka: APA 7th Edition, alfabetis
 - Referensi: 15-30 referensi
+- Proposal GSE diajukan: 7 Oktober 2026
 - Limit chat: [isi]
 - Tanggal mulai: [isi]
 - File yang perlu disimpan di folder referensi/:
@@ -413,6 +464,7 @@ RANGKUMAN LENGKAP PROJECT SKRIPSI
   12-jurnal-fajarot.pdf
   13-skripsi-arvin.pdf
   14-jurnal-nanda.pdf
+  15-proposal-gse.pdf
   summary-skripsi.txt
 
 ============================================================
