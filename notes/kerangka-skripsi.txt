@@ -1,0 +1,155 @@
+SKRIPSI — RAIYA YUSUF PRIATMOJO
+NIM 22518244004
+====================================
+
+JUDUL:
+Pengembangan Trainer Kit Multi Sensor Berbasis Arduino Uno
+sebagai Media Pembelajaran Sensor dan Aktuator
+di CV Global Solusi Edukasi
+
+
+BAGIAN AWAL
+├── Halaman Sampul
+├── Halaman Kosong
+├── Sampul Dalam
+├── Abstrak (Indonesia)
+├── Abstract (Inggris)
+├── Surat Pernyataan
+├── Lembar Persetujuan
+├── Lembar Pengesahan
+├── Halaman Persembahan
+├── Kata Pengantar
+├── Daftar Isi
+├── Daftar Tabel
+├── Daftar Gambar
+└── Daftar Lampiran
+
+
+BAB I — PENDAHULUAN
+├── A. Latar Belakang
+├── B. Identifikasi Masalah
+├── C. Batasan Masalah
+├── D. Rumusan Masalah
+├── E. Tujuan Penelitian
+├── F. Manfaat Penelitian
+│   ├── 1. Bagi CV Global Solusi Edukasi
+│   ├── 2. Bagi Peserta Didik
+│   ├── 3. Bagi Peneliti
+│   └── 4. Bagi Program Studi Pendidikan Teknik Mekatronika
+└── G. Spesifikasi Produk
+    └── Tabel 1. Spesifikasi Produk
+
+
+BAB II — KAJIAN PUSTAKA
+├── A. Kajian Teori
+│   ├── 1. Penelitian dan Pengembangan
+│   ├── 2. Media Pembelajaran
+│   │   ├── a. Pengertian Media Pembelajaran
+│   │   ├── b. Fungsi dan Manfaat Media Pembelajaran
+│   │   ├── c. Kriteria Pemilihan Media Pembelajaran
+│   │   ├── d. Klasifikasi Media Pembelajaran
+│   │   └── e. Trainer Kit
+│   ├── 3. Arduino Uno
+│   │   ├── a. Pengertian Arduino Uno
+│   │   ├── b. Spesifikasi Arduino Uno
+│   │   │   └── Tabel 2. Spesifikasi Arduino Uno
+│   │   ├── c. Pin I/O Arduino Uno
+│   │   │   └── Tabel 3. Fungsi Pin Arduino Uno
+│   │   └── d. Pemrograman Mikrokontroler
+│   │       ├── 1) Arduino IDE
+│   │       ├── 2) Struktur Program
+│   │       ├── 3) Variabel
+│   │       │   └── Tabel 4. Tipe Data pada Pemrograman Arduino Uno
+│   │       ├── 4) Operator
+│   │       ├── 5) Struktur Pengaturan
+│   │       ├── 6) Fungsi Digital dan Analog
+│   │       │   └── Tabel 5. Fungsi Digital dan Analog pada Arduino Uno
+│   │       └── 7) Proses Upload Program
+│   ├── 4. Sensor dan Input
+│   │   ├── a. Pengertian Sensor
+│   │   ├── b. Push Button (Input Digital)
+│   │   ├── c. Sensor LDR
+│   │   ├── d. Sensor Ultrasonik (HC-SR04)
+│   │   ├── e. Sensor IR Obstacle
+│   │   ├── f. Sensor DHT22
+│   │   ├── g. Sensor PIR (HC-SR501)
+│   │   ├── h. Sensor MQ-6
+│   │   ├── i. Sensor Rain Drop
+│   │   ├── j. Sensor Flame Detector (KY-026)
+│   │   └── k. Sensor RFID (RC522)
+│   ├── 5. Output
+│   │   ├── a. LED
+│   │   ├── b. RGB LED
+│   │   ├── c. Buzzer (Passive)
+│   │   ├── d. LCD I2C 16x2
+│   │   └── e. Servo MG90S
+│   └── 6. Kelas Robot Inovasi di CV Global Solusi Edukasi
+├── B. Penelitian yang Relevan
+│   ├── 1. Penelitian oleh Arvin Heri Wicaksono (2016)
+│   ├── 2. Penelitian oleh ...
+│   ├── 3. Penelitian oleh ...
+│   ├── 4. Penelitian oleh ...
+│   └── 5. Penelitian oleh ...
+├── C. Kerangka Berpikir
+└── D. Pertanyaan Penelitian
+
+
+BAB III — METODE PENELITIAN
+├── A. Jenis atau Desain Penelitian
+├── B. Tempat dan Waktu Penelitian
+├── C. Subjek dan Objek Penelitian
+├── D. Prosedur Pengembangan
+│   ├── 1. Tahap Analysis
+│   ├── 2. Tahap Design
+│   ├── 3. Tahap Development
+│   ├── 4. Tahap Implementation
+│   └── 5. Tahap Evaluation
+├── E. Teknik dan Instrumen Pengumpulan Data
+│   ├── 1. Teknik Pengumpulan Data
+│   └── 2. Instrumen Pengumpulan Data
+├── F. Validitas dan Reliabilitas Instrumen
+│   ├── 1. Validitas Instrumen
+│   └── 2. Reliabilitas Instrumen
+└── G. Teknik Analisis Data
+
+
+BAB IV — HASIL DAN PEMBAHASAN
+├── A. Hasil Pengembangan Produk
+│   ├── 1. Tahap Analysis
+│   ├── 2. Tahap Design
+│   ├── 3. Tahap Development
+│   ├── 4. Tahap Implementation
+│   └── 5. Tahap Evaluation
+├── B. Hasil Uji Coba
+│   ├── 1. Hasil Validasi Ahli Media
+│   ├── 2. Hasil Validasi Ahli Materi
+│   ├── 3. Hasil Respons Peserta Didik
+│   └── 4. Hasil Uji Reliabilitas
+├── C. Revisi Produk
+│   ├── 1. Revisi Ahli Media
+│   ├── 2. Revisi Ahli Materi
+│   └── 3. Revisi Berdasarkan Respons Peserta Didik
+├── D. Kajian Produk Akhir
+│   ├── 1. Karakteristik Produk
+│   ├── 2. Spesifikasi Produk
+│   └── 3. Kemampuan Operasional
+└── E. Keterbatasan Penelitian
+    ├── 1. Keterbatasan Metodologi
+    └── 2. Keterbatasan Produk
+
+
+BAB V — SIMPULAN DAN SARAN
+├── A. Simpulan
+│   ├── 1. Jawaban Rumusan Masalah 1
+│   ├── 2. Jawaban Rumusan Masalah 2
+│   └── 3. Jawaban Rumusan Masalah 3
+├── B. Implikasi
+└── C. Saran
+    ├── 1. Bagi GSE
+    ├── 2. Bagi Peneliti Selanjutnya
+    └── 3. Bagi Prodi
+
+
+BAGIAN AKHIR
+├── Daftar Pustaka
+└── Lampiran

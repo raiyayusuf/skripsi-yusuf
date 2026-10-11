@@ -1,0 +1,25 @@
+KOSA KATA KONSISTEN — SKRIPSI YUSUF
+====================================
+
+1. Trainer Kit
+2. Ultrasonik (HC-SR04)
+3. PIR (HC-SR501)
+4. Flame Detector (KY-026)
+5. RFID (RC522)
+6. DHT22
+7. LCD I2C 16x2
+8. Buzzer (Passive)
+9. Servo MG90S
+10. LED (merah, kuning, hijau, biru)
+11. RGB LED
+12. Push Button
+13. CV Global Solusi Edukasi (GSE)
+14. Kelas Robot Inovasi
+15. Peserta didik
+16. Modul dan labsheet
+17. Arduino Uno
+18. IR Obstacle
+19. Praktikum
+20. Sensor
+21. Aktuator
+22. Microcontroller
