@@ -41,31 +41,29 @@ BAB I — PENDAHULUAN
 
 
 BAB II — KAJIAN PUSTAKA
+
 ├── A. Kajian Teori
 │   ├── 1. Penelitian dan Pengembangan
 │   ├── 2. Media Pembelajaran
 │   │   ├── a. Pengertian Media Pembelajaran
 │   │   ├── b. Fungsi dan Manfaat Media Pembelajaran
 │   │   ├── c. Kriteria Pemilihan Media Pembelajaran
-│   │   ├── d. Klasifikasi Media Pembelajaran
-│   │   └── e. Trainer Kit
-│   ├── 3. Arduino Uno
+│   │   └── d. Klasifikasi Media Pembelajaran
+│   ├── 3. Trainer Kit
+│   │   ├── a. Pengertian Trainer Kit
+│   │   ├── b. Fungsi dan Manfaat Trainer Kit
+│   │   ├── c. Karakteristik Trainer Kit
+│   │   ├── d. Komponen Umum Trainer Kit (Hanya pengantar)
+│   │   │   ├── 1) Mikrokontroler
+│   │   │   ├── 2) Sensor
+│   │   │   ├── 3) Output
+│   │   │   └── 4) Casing
+│   │   └── e. Trainer Kit sebagai Media Pembelajaran
+│   ├── 4. Arduino Uno
 │   │   ├── a. Pengertian Arduino Uno
 │   │   ├── b. Spesifikasi Arduino Uno
-│   │   │   └── Tabel 2. Spesifikasi Arduino Uno
-│   │   ├── c. Pin I/O Arduino Uno
-│   │   │   └── Tabel 3. Fungsi Pin Arduino Uno
-│   │   └── d. Pemrograman Mikrokontroler
-│   │       ├── 1) Arduino IDE
-│   │       ├── 2) Struktur Program
-│   │       ├── 3) Variabel
-│   │       │   └── Tabel 4. Tipe Data pada Pemrograman Arduino Uno
-│   │       ├── 4) Operator
-│   │       ├── 5) Struktur Pengaturan
-│   │       ├── 6) Fungsi Digital dan Analog
-│   │       │   └── Tabel 5. Fungsi Digital dan Analog pada Arduino Uno
-│   │       └── 7) Proses Upload Program
-│   ├── 4. Sensor dan Input
+│   │   └── c. Pin I/O Arduino Uno
+│   ├── 5. Sensor dan Input
 │   │   ├── a. Pengertian Sensor
 │   │   ├── b. Push Button (Input Digital)
 │   │   ├── c. Sensor LDR
@@ -77,13 +75,21 @@ BAB II — KAJIAN PUSTAKA
 │   │   ├── i. Sensor Rain Drop
 │   │   ├── j. Sensor Flame Detector (KY-026)
 │   │   └── k. Sensor RFID (RC522)
-│   ├── 5. Output
+│   ├── 6. Output
 │   │   ├── a. LED
 │   │   ├── b. RGB LED
 │   │   ├── c. Buzzer (Passive)
 │   │   ├── d. LCD I2C 16x2
 │   │   └── e. Servo MG90S
-│   └── 6. Kelas Robot Inovasi di CV Global Solusi Edukasi
+│   ├── 7. Pemrograman Mikrokontroler
+│   │   ├── a. Arduino IDE
+│   │   ├── b. Struktur Program
+│   │   ├── c. Variabel
+│   │   ├── d. Operator
+│   │   ├── e. Struktur Pengaturan
+│   │   ├── f. Fungsi Digital dan Analog
+│   │   └── g. Proses Upload Program
+│   └── 8. Kelas Robot Inovasi di CV Global Solusi Edukasi
 ├── B. Penelitian yang Relevan
 │   ├── 1. Penelitian oleh Arvin Heri Wicaksono (2016)
 │   ├── 2. Penelitian oleh ...
@@ -153,3 +159,12 @@ BAB V — SIMPULAN DAN SARAN
 BAGIAN AKHIR
 ├── Daftar Pustaka
 └── Lampiran
+
+
+CATATAN:
+- Sub-bab 7 (Kelas Robot Inovasi) = penjabaran dari "di CV Global Solusi Edukasi"
+- Sub-bab 6 (Output) = penjabaran dari "Aktuator"
+- Sub-bab 5 (Sensor dan Input) = penjabaran dari "Multi Sensor"
+- Sub-bab 4 (Arduino Uno) = penjabaran dari "Berbasis Arduino Uno"
+- Sub-bab 3 (Trainer Kit) = penjabaran dari "Trainer Kit" (sub-bab sendiri)
+- Sub-bab 1-2 = teori umum (R&D, Media Pembelajaran)

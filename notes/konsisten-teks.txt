@@ -10,7 +10,7 @@ KOSA KATA KONSISTEN — SKRIPSI YUSUF
 7. LCD I2C 16x2
 8. Buzzer (Passive)
 9. Servo MG90S
-10. LED (merah, kuning, hijau, biru)
+10. LED 
 11. RGB LED
 12. Push Button
 13. CV Global Solusi Edukasi (GSE)
@@ -22,4 +22,5 @@ KOSA KATA KONSISTEN — SKRIPSI YUSUF
 19. Praktikum
 20. Sensor
 21. Aktuator
-22. Microcontroller
+22. Mikrokontroller
+23. Penelitian

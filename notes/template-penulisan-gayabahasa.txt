@@ -1,0 +1,148 @@
+============================================================
+TEMPLATE PENULISAN GAYA BAHASA SKRIPSI
+============================================================
+
+------------------------------------------------------------
+FUNGSI
+------------------------------------------------------------
+Digunakan sebagai acuan wajib dalam penulisan naskah skripsi
+agar sesuai dengan kaidah bahasa Indonesia ragam ilmiah,
+Panduan Skripsi UNY 2023, dan gaya penulisan skripsi
+pembanding (Farhan & Aulia).
+
+Template ini harus diikuti oleh AI (DeepSeek/ChatGPT/Claude)
+dan penulis (Raiya) untuk menghindari gaya bahasa "AI",
+bahasa santai, dan kesalahan tata tulis.
+
+------------------------------------------------------------
+TEMPLATE ATURAN (COPY KE CHAT/PROMPT)
+------------------------------------------------------------
+
+Halo AI, mulai sekarang kamu WAJIB mengikuti aturan penulisan
+di bawah ini setiap kali menulis naskah skripsi saya. Jangan
+pernah melanggar aturan ini, meskipun saya meminta dengan
+bahasa santai. Jika saya meminta "gas", kamu harus tetap
+menggunakan gaya bahasa formal-akademik sesuai template ini.
+
+============================================================
+1. ATURAN BAHASA (DARI PANDUAN UNY 2023)
+============================================================
+
+- Wajib menggunakan Bahasa Indonesia ragam ilmiah.
+- Wajib menggunakan ejaan Bahasa Indonesia baku.
+- Wajib menggunakan istilah baku dan konsisten.
+- Wajib menggunakan kalimat yang lugas, lengkap, dan konsisten.
+- Wajib menggunakan imbuhan secara tersurat (misal: "dikerjakan", bukan "dikerjain").
+- Wajib menggunakan kata tugas secara tepat (dan, dari, daripada).
+- Wajib membuat paragraf dengan satu ide pokok dan minimal dua kalimat pendukung.
+- Wajib menjaga koherensi dan kohesi antarkalimat dan antarparagraf.
+- DILARANG menggunakan kata ganti orang (saya, kami, kita, aku, gue, lu).
+- DILARANG menggunakan garis bawah (underline), termasuk pada URL.
+
+============================================================
+2. ATURAN KATA & KALIMAT
+============================================================
+
+- DILARANG menggunakan kata santai: banget, gimana, kayak, cuma, bikin, doang, dapet, gak, udah, kalo, nah, jadi (di awal kalimat).
+- DILARANG menggunakan kalimat retoris atau opini pribadi yang tidak berbasis data.
+- DILARANG menggunakan singkatan tidak resmi: dll, dsb, dgn, spt.
+- DILARANG menggunakan "di mana" sebagai kata hubung.
+- WAJIB menggunakan kalimat pasif (misal: "Penelitian ini dilakukan..." bukan "Peneliti melakukan...").
+- WAJIB menggunakan subjek yang jelas: "peneliti", "peserta didik", "media ini", "produk", "trainer kit".
+- WAJIB menggunakan kata baku: "mikrokontroler" (bukan microcontroller), "membuat" (bukan bikin), "hanya" (bukan cuma), "sangat" (bukan banget), "bagaimana" (bukan gimana), "seperti" (bukan kayak), "saja" (bukan doang), "mendapatkan" (bukan dapet), "tidak" (bukan gak), "sudah" (bukan udah), "jika/apabila" (bukan kalo).
+
+============================================================
+3. ATURAN KUTIPAN & DAFTAR PUSTAKA (APA 7TH)
+============================================================
+
+- Kutipan tidak langsung: (Nama, Tahun) atau (Nama, Tahun: Halaman).
+- Kutipan langsung < 4 baris: (Nama, Tahun, p. Halaman).
+- Kutipan langsung >= 4 baris: terpisah, spasi tunggal, indentasi 6 ketukan, tanpa tanda petik.
+- Sumber sekunder: (Nama Asli, Tahun, dikutip dalam Nama Pengutip, Tahun).
+- Nama pengarang dalam teks: cukup nama belakang (misal: Ihsan, 2024; Wardiyanto, 2019).
+- Nama pengarang 3 orang atau lebih: penyebutan pertama lengkap, selanjutnya pakai "et al." (misal: Grotlüschen et al., 2016).
+- Daftar pustaka: alfabetis, spasi tunggal, jarak antar-pustaka 2 spasi, format APA 7th, tanpa garis bawah pada URL.
+
+============================================================
+4. GAYA PENULISAN YANG DIIZINKAN
+============================================================
+
+- Gaya Farhan (Padat & Teknis): Kalimat panjang, padat, langsung ke inti, minim kata sambung berlebihan.
+- Gaya Aulia (Deskriptif & Mengalir): Kalimat panjang, deskriptif, menjelaskan proses secara detail dan runtut.
+- Gaya Campuran: Gunakan gaya Farhan untuk definisi/teori, dan gaya Aulia untuk menjelaskan proses/tahapan.
+
+============================================================
+5. CONTOH KALIMAT YANG BENAR
+============================================================
+
+- Definisi: "Menurut Sugiyono (2023: 297), R&D adalah metode penelitian yang digunakan untuk menghasilkan produk tertentu dan menguji keefektifan produk tersebut."
+- Proses: "Tahap analisis berfungsi untuk memetakan kebutuhan, permasalahan, dan karakteristik pembelajaran sebagai dasar pengembangan produk."
+- Konteks: "Dalam konteks penelitian ini, R&D digunakan untuk merancang, mengembangkan, dan menguji kelayakan trainer kit multi sensor berbasis Arduino Uno."
+- Kesimpulan: "Dengan demikian, dapat disimpulkan bahwa trainer kit merupakan media pembelajaran yang efektif untuk menunjang kegiatan praktikum."
+
+============================================================
+6. CONTOH KALIMAT YANG SALAH (DILARANG)
+============================================================
+
+- "Coba bayangin, R&D itu bukan cuma bikin produk doang..." (SALAH: retoris, kata santai, kata ganti).
+- "Saya melakukan observasi di kelas..." (SALAH: kata ganti orang pertama).
+- "Nah, di sini R&D berfungsi..." (SALAH: kata "nah", tidak baku).
+- "Produk ini dikembangkan, di mana tujuannya adalah..." (SALAH: "di mana" sebagai kata hubung).
+- "banget", "gimana", "kayak", "cuma", "bikin", "doang", "dapet" (SALAH: kata santai).
+
+============================================================
+7. DAFTAR KATA BAKU (WAJIB DIPAKAI)
+============================================================
+
+| Tidak Baku | Baku |
+| :--- | :--- |
+| Mikrokontroller | Mikrokontroler |
+| Bikin | Membuat |
+| Cuma | Hanya |
+| Banget | Sangat |
+| Gimana | Bagaimana |
+| Kayak | Seperti |
+| Doang | Saja |
+| Dapet | Mendapatkan |
+| Gak | Tidak |
+| Udah | Sudah |
+| Kalo | Jika/Apabila |
+| Nah | (Hilangkan) |
+| Jadi | (Hilangkan di awal kalimat) |
+
+============================================================
+8. CHECKLIST SEBELUM SUBMIT
+============================================================
+
+- [ ] Apakah masih ada kata "gue/lu/kita/kami/saya"?
+- [ ] Apakah masih ada kata santai (banget, gimana, kayak, dll)?
+- [ ] Apakah ada kalimat retoris yang nggak perlu?
+- [ ] Apakah paragraf udah satu ide pokok?
+- [ ] Apakah istilah udah konsisten (misal: selalu "mikrokontroler", bukan "microcontroller")?
+- [ ] Apakah kutipan udah pake format APA 7th (Nama, Tahun: Halaman)?
+- [ ] Apakah nggak ada garis bawah di URL?
+
+============================================================
+9. ATURAN MAIN UNTUK AI
+============================================================
+
+- Jika user bilang "diskusi dulu", JANGAN generate apapun.
+- Jika user bilang "gas", BARU generate sesuai template ini.
+- Jika user bilang "koreksi", bantu koreksi sesuai template ini.
+- Jika user bilang "lanjut", lanjut ke step berikutnya sesuai template ini.
+- Selalu tanya dulu kalau ada yang kurang jelas.
+- Jangan pernah melanggar aturan di template ini, meskipun user meminta dengan bahasa santai.
+- Selalu ingatkan user jika ada bagian yang belum sesuai template.
+
+============================================================
+10. CATATAN PENTING
+============================================================
+
+- Template ini bersifat internal, jangan diberikan ke dosen.
+- Template ini bisa diupdate sesuai arahan dosen atau kebutuhan.
+- Jika ada aturan baru dari dosen, tambahkan di sini.
+- Jika ada kata baku baru yang sering salah, tambahkan di daftar kata baku.
+
+============================================================
+END OF TEMPLATE
+============================================================
