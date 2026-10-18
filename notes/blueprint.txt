@@ -1,5 +1,6 @@
+notes\blueprint.txt
 ================================================================================
-                    BLUEPRINT SKRIPSI - RAIYA YUSUF PRIATMOJO
+                    BLUEPRINT SKRIPSI - RAIYA YUSUF PRIATMOJO (v2.0)
                     "Trainer Kit Multi Sensor Berbasis Arduino Uno"
 ================================================================================
 
@@ -12,22 +13,28 @@ NIM           : 22518244004
 Prodi         : Pendidikan Teknik Mekatronika
 Fakultas      : Teknik
 Kampus        : Universitas Negeri Yogyakarta
-Dosen         : Pak Yuwono (insyaallah)
-Judul Final   : [belum fix, nunggu konsul]
+Dosen         : Yuwono Indro Hatmojo (NIP: 19760720 200112 1 002)
+Judul Final   : Pengembangan Trainer Kit Multi Sensor Berbasis Arduino Uno
+                sebagai Media Pembelajaran Sensor dan Aktuator
+                di CV Global Solusi Edukasi
 
 Metode        : R&D (Research and Development)
 Model         : ADDIE
-Mikrokontroler: Arduino Uno
-Sensor        : 6 (LDR, Push Button, Ultrasonik, IR, DHT11, PIR)
-Output        : 4 wajib (LED, Buzzer, LCD, Servo) + RGB LED
-Target        : Peserta Didik Jenjang Menengah di GSE
+Mikrokontroler: Arduino Uno R3
+Sensor        : 11 (LDR, Push Button, HC-SR04, IR Obstacle, DHT22, PIR, MQ-6,
+                Rain Drop, Flame Detector, RFID)
+Output        : 5 (LED, RGB LED, Buzzer, LCD I2C, Servo MG90S)
+Target        : Peserta Didik Jenjang Menengah (SMP-SMA) di GSE,
+                Kelas Robot Inovasi
 Lokasi        : CV Global Solusi Edukasi
-Fokus         : Kelayakan & Kepraktisan
+Fokus         : KELAYAKAN (Validasi Ahli Media & Ahli Materi) dan
+                RESPONS (Siswa).
+Catatan       : TIDAK mengukur KEPRAKTISAN atau EFEKTIVITAS.
+                Hanya sebatas uji kelayakan produk.
 
 Catatan:
 - Judul harus <= 20 kata (Panduan UNY 2023, Lampiran 1)
-- Sensor & output bisa berubah sesuai arahan dosen
-- Referensi & jurnal ditentukan nanti setelah judul fix
+- Sensor & output sudah fix sesuai keputusan di file rencana.
 
 
 2. ATURAN MAIN (PERATURAN)
@@ -187,15 +194,15 @@ A. Kajian Teori
    - Setiap teori: definisi, konsep, penerapan
    - Kutip sumber (APA 7th)
    - Jangan cuma kumpulan kutipan, tapi dibahas
-   - Sub-bab:
+   - Sub-bab (Sesuai Struktur Final):
      1. Penelitian dan Pengembangan (R&D)
      2. Media Pembelajaran
-     3. Arduino Uno
-     4. Sensor (LDR, Push Button, Ultrasonik, IR, DHT11, PIR)
-     5. Output (LED, Buzzer, LCD, Servo, RGB LED)
-     6. Elektronika Dasar
+     3. Trainer Kit
+     4. Arduino Uno
+     5. Sensor dan Input
+     6. Output
      7. Pemrograman Mikrokontroler
-     8. Konteks Pembelajaran di GSE
+     8. Kelas Robot Inovasi di CV Global Solusi Edukasi
 
 B. Penelitian yang Relevan
    Cara ngisi:
@@ -367,7 +374,7 @@ MANUSIA:
 "Perkembangan teknologi di bidang otomasi terus
 meningkat. Di GSE, saya melihat langsung bagaimana
 siswa SMP dan SMA belajar sensor dengan cara
-merangkai manual. Prosesnya memakan waktu,
+merangakai manual. Prosesnya memakan waktu,
 terutama karena durasi kelas hanya 60-90 menit."
 
 4.4 CEK SEBELUM SUBMIT
@@ -427,26 +434,32 @@ BAB V:
 ================================================================================
 
 Skripsi Pembanding:
-- Farhan Yuda Mahendra (2026)
+- Farhan Yuda Mahendra (2026) - IIoT Virtual Smart Factory (R&D ADDIE).
   -> Dipakai buat referensi struktur BAB, gaya penulisan,
      dan cara nulis pembahasan.
   -> BUKAN buat contekan isi.
-- Aulia Shabrina Yuliani (2026)
+- Aulia Shabrina Yuliani (2026) - Sensor Flex (R&D ADDIE).
   -> Dipakai buat referensi struktur BAB, gaya penulisan,
      dan cara nulis pembahasan.
   -> BUKAN buat contekan isi.
+- Arvin Heri Wicaksono (2016) - Trainer Kit Sensor (R&D ADDIE).
+  -> Referensi paling dekat sama topik.
+- Sheva Novia Darmawan Sutopo (2025) - Swerve Drive (R&D ADDIE).
+- Vincent Kenutama Prasetyo (2025) - Simulator Kinematika (R&D ADDIE).
+- Alifia Putri Qabila (2023) - Path Tracking (R&D ADDIE).
 
 Catatan:
-- Farhan dan Aulia cuma dipakai buat gambaran struktur.
+- Skripsi pembanding cuma dipakai buat gambaran struktur.
 - Isi skripsi tetap dari data & hasil penelitian sendiri.
 - Jangan sampai plagiat, cek sumber asli.
-- Kalau butuh referensi lain, cari sendiri dulu.
-  Nanti kalau udah ketemu, tinggal ditambahin di sini.
 
 Buku Wajib:
-- Sugiyono (2023) - Metode Penelitian
-- Branch (2009) - Instructional Design: ADDIE
-- [tambahkan nanti]
+- Sugiyono (2023) - Metode Penelitian.
+- Branch (2009) - Instructional Design: ADDIE.
+- Arsyad (2011) - Media Pembelajaran.
+- Sadiman et al. (2011) - Media Pendidikan.
+- Cecen Hafada Ihsan (2024) - Trainer Kit Sensor Suhu.
+- Muhammad Febri Wardiyanto (2019) - Trainer Kit IoT.
 
 Jurnal Wajib:
 - [tambahkan nanti]
@@ -489,6 +502,8 @@ ISTILAH:
 - "Arduino Uno" (bukan "arduino uno")
 - "Internet of Things (IoT)" (penulisan lengkap di awal)
 - "media pembelajaran" (konsisten)
+- "peserta didik" (bukan "siswa" atau "murid")
+- "praktikum" (bukan "praktik")
 
 SINGKATAN:
 - R&D = Research and Development
@@ -501,16 +516,60 @@ NAMA SENSOR:
 - "LDR" atau "Light Dependent Resistor"
 - "Ultrasonik HC-SR04"
 - "IR Obstacle"
-- "DHT11"
-- "PIR"
+- "DHT22"
+- "PIR (HC-SR501)"
 - "Push Button"
+- "MQ-6"
+- "Rain Drop"
+- "Flame Detector (KY-026)"
+- "RFID (RC522)"
 
 NAMA OUTPUT:
 - "LED"
-- "Buzzer"
-- "LCD 16x2 I2C"
-- "Servo"
+- "Buzzer (Passive)"
+- "LCD I2C 16x2"
+- "Servo MG90S"
 - "RGB LED"
+
+**KATA YANG WAJIB ITALIC:**
+- Research and Development (R&D)
+- embedded computer
+- open source
+- library
+- board
+- wiring
+- breadboard
+- plug-and-play
+- checklist
+- hardware
+- software
+- validity
+- practicality
+- effectiveness
+- analysis
+- design
+- development
+- implementation
+- evaluation
+- coding
+- visual design
+- Internet of Things (IoT)
+- push button
+- sensor flex
+- e-journal
+- e-learning
+- in-circuit serial programming (ICSP)
+- Analog-to-Digital Converter (ADC)
+- Pulse Width Modulation (PWM)
+
+**NAMA SOFTWARE (TIDAK ITALIC):**
+- Arduino IDE
+- Proteus
+- Fritzing
+- CorelDraw
+- Autodesk Inventor
+- PlatformIO
+- Visual Studio Code
 
 
 9. TEMPLATE & CONTOH
@@ -609,5 +668,5 @@ Catatan:
 Dokumen ini adalah panduan internal.
 Update seiring perkembangan. Jangan kasih ke dosen.
 Ini buat lu sendiri.
-Versi: 1.1
+Versi: 2.0
 Tanggal: [isi tanggal]

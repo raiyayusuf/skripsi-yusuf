@@ -1,6 +1,9 @@
-KOSA KATA KONSISTEN — SKRIPSI YUSUF
-====================================
+KOSA KATA KONSISTEN & KATA ITALIC — SKRIPSI YUSUF
+====================================================
+Berdasarkan Panduan Skripsi UNY 2023, Bab V, Poin 8.
 
+BAGIAN 1: KOSA KATA KONSISTEN
+----------------------------------------------------
 1. Trainer Kit
 2. Ultrasonik (HC-SR04)
 3. PIR (HC-SR501)
@@ -22,5 +25,49 @@ KOSA KATA KONSISTEN — SKRIPSI YUSUF
 19. Praktikum
 20. Sensor
 21. Aktuator
-22. Mikrokontroller
+22. Mikrokontroler (BUKAN Mikrokontroller)
 23. Penelitian
+
+BAGIAN 2: KATA YANG WAJIB ITALIC (CETAK MIRING)
+----------------------------------------------------
+*Catatan: Wajib italic karena ini istilah asing yang belum diserap atau nama software/tools sesuai Panduan UNY Bab V Poin 8.*
+
+Istilah Asing yang Belum Diserap:
+
+1. Research and Development (R&D)
+2. embedded computer
+3. open source
+4. library
+5. board
+6. wiring
+7. breadboard
+8. plug-and-play
+9. checklist
+10. hardware
+11. software
+12. validity
+13. practicality
+14. effectiveness
+15. analysis
+16. design
+17. development
+18. implementation
+19. evaluation
+20. coding
+21. visual design
+22. Internet of Things (IoT)
+23. push button
+24. sensor flex
+25. e-journal
+26. e-learning
+27. in-circuit serial programming (ICSP)
+28. Analog-to-Digital Converter (ADC)
+29. Pulse Width Modulation (PWM)
+
+BAGIAN 3: ATURAN TAMBAHAN
+----------------------------------------------------
+1. Jangan pakai garis bawah (underline) di URL atau link.
+2. Nama orang (Wicaksono, Ihsan) TIDAK ITALIC.
+3. Nama tempat/lembaga (CV Global Solusi Edukasi, UNY) TIDAK ITALIC.
+4. Nama komponen baku (Arduino Uno, LED, LCD, DHT22) TIDAK ITALIC.
+5. Pastikan konsisten: Kalau "Arduino IDE" di Bab I italic, di Bab II juga harus italic.
