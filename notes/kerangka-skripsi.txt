@@ -27,23 +27,28 @@ BAGIAN AWAL
 
 BAB I — PENDAHULUAN
 ├── A. Latar Belakang
-├── B. Identifikasi Masalah
+├── B. Identifikasi Masalah (4 poin)
 ├── C. Batasan Masalah
-├── D. Rumusan Masalah
-├── E. Tujuan Penelitian
+├── D. Rumusan Masalah (3 poin)
+├── E. Tujuan Penelitian (3 poin)
 ├── F. Manfaat Penelitian
 │   ├── 1. Bagi CV Global Solusi Edukasi
 │   ├── 2. Bagi Peserta Didik
 │   ├── 3. Bagi Peneliti
-│   └── 4. Bagi Program Studi Pendidikan Teknik Mekatronika
+│   └── 4. Bagi Pembaca
 └── G. Spesifikasi Produk
     └── Tabel 1. Spesifikasi Produk
 
 
 BAB II — KAJIAN PUSTAKA
-
 ├── A. Kajian Teori
-│   ├── 1. Penelitian dan Pengembangan
+│   ├── 1. Penelitian dan Pengembangan (R&D) (DIPADATKAN)
+│   │   ├── a. Pengertian R&D
+│   │   ├── b. Tujuan dan Karakteristik R&D
+│   │   ├── c. Model Pengembangan ADDIE
+│   │   │   ├── 1) Pengertian Model ADDIE
+│   │   │   └── 2) Tahapan Model ADDIE (Analysis, Design, Development, Implementation, Evaluation)
+│   │   └── d. Alasan Pemilihan Model ADDIE
 │   ├── 2. Media Pembelajaran
 │   │   ├── a. Pengertian Media Pembelajaran
 │   │   ├── b. Fungsi dan Manfaat Media Pembelajaran
@@ -53,7 +58,7 @@ BAB II — KAJIAN PUSTAKA
 │   │   ├── a. Pengertian Trainer Kit
 │   │   ├── b. Fungsi dan Manfaat Trainer Kit
 │   │   ├── c. Karakteristik Trainer Kit
-│   │   ├── d. Komponen Umum Trainer Kit (Hanya pengantar)
+│   │   ├── d. Komponen Umum Trainer Kit
 │   │   │   ├── 1) Mikrokontroler
 │   │   │   ├── 2) Sensor
 │   │   │   ├── 3) Output
@@ -90,33 +95,62 @@ BAB II — KAJIAN PUSTAKA
 │   │   ├── f. Fungsi Digital dan Analog
 │   │   └── g. Proses Upload Program
 │   └── 8. Kelas Robot Inovasi di CV Global Solusi Edukasi
-├── B. Penelitian yang Relevan
+│       ├── a. Profil CV Global Solusi Edukasi
+│       ├── b. Kelas Robot Inovasi
+│       ├── c. Kondisi Pembelajaran di Kelas Robot Inovasi
+│       └── d. Keterkaitan dengan Penelitian
+├── B. Penelitian yang Relevan (BARU 1: Arvin, TAMBAH LAGI)
 │   ├── 1. Penelitian oleh Arvin Heri Wicaksono (2016)
-│   ├── 2. Penelitian oleh ...
-│   ├── 3. Penelitian oleh ...
-│   ├── 4. Penelitian oleh ...
-│   └── 5. Penelitian oleh ...
-├── C. Kerangka Berpikir
-└── D. Pertanyaan Penelitian
+│   ├── 2. Penelitian oleh ... (TAMBAH)
+│   ├── 3. Penelitian oleh ... (TAMBAH)
+│   ├── 4. Penelitian oleh ... (TAMBAH)
+│   └── 5. Penelitian oleh ... (TAMBAH)
+├── C. Kerangka Berpikir (DIPADATKAN)
+└── D. Pertanyaan Penelitian (4 poin)
 
 
 BAB III — METODE PENELITIAN
-├── A. Jenis atau Desain Penelitian
-├── B. Tempat dan Waktu Penelitian
+├── A. Jenis atau Desain Penelitian (R&D ADDIE)
+├── B. Tempat dan Waktu Penelitian (September - November 2026)
 ├── C. Subjek dan Objek Penelitian
-├── D. Prosedur Pengembangan
-│   ├── 1. Tahap Analysis
-│   ├── 2. Tahap Design
-│   ├── 3. Tahap Development
-│   ├── 4. Tahap Implementation
-│   └── 5. Tahap Evaluation
-├── E. Teknik dan Instrumen Pengumpulan Data
+│   ├── 1. Subjek Penelitian
+│   └── 2. Objek Penelitian
+├── D. Prosedur Pengembangan (DIPADATKAN - 5 Tahap ADDIE)
+│   ├── 1. Tahap Analisis (Analysis)
+│   │   ├── a. Analisis Kebutuhan
+│   │   ├── b. Analisis Kurikulum
+│   │   └── c. Analisis Karakteristik Peserta Didik
+│   ├── 2. Tahap Perancangan (Design)
+│   │   ├── a. Perancangan Hardware Trainer Kit
+│   │   ├── b. Perancangan Modul dan Labsheet
+│   │   └── c. Perancangan Instrumen Penelitian
+│   ├── 3. Tahap Pengembangan (Development)
+│   │   ├── a. Pembuatan Produk
+│   │   ├── b. Uji Fungsionalitas
+│   │   └── c. Validasi Ahli
+│   ├── 4. Tahap Implementasi (Implementation)
+│   │   ├── a. Persiapan
+│   │   ├── b. Pelaksanaan Uji Coba
+│   │   └── c. Pengambilan Data Respons
+│   └── 5. Tahap Evaluasi (Evaluation)
+├── E. Teknik dan Instrumen Pengumpulan Data (BARU)
 │   ├── 1. Teknik Pengumpulan Data
+│   │   ├── a. Angket (Kuesioner)
+│   │   ├── b. Observasi
+│   │   └── c. Dokumentasi
 │   └── 2. Instrumen Pengumpulan Data
-├── F. Validitas dan Reliabilitas Instrumen
-│   ├── 1. Validitas Instrumen
-│   └── 2. Reliabilitas Instrumen
-└── G. Teknik Analisis Data
+│       ├── a. Instrumen Kelayakan untuk Ahli Media (Tabel Kisi-Kisi)
+│       ├── b. Instrumen Kelayakan untuk Ahli Materi (Tabel Kisi-Kisi)
+│       └── c. Instrumen Respons Peserta Didik (Tabel Kisi-Kisi)
+├── F. Validitas dan Reliabilitas Instrumen (BARU)
+│   ├── 1. Validitas Instrumen (Expert Judgment)
+│   └── 2. Reliabilitas Instrumen (Alpha Cronbach)
+└── G. Teknik Analisis Data (BARU)
+    ├── 1. Menghitung Skor Rata-Rata
+    ├── 2. Menentukan Skor Maksimum dan Minimum
+    ├── 3. Menghitung Nilai Tengah Ideal dan Simpangan Baku Ideal
+    ├── 4. Menentukan Kategori Penilaian (Tabel Kategori)
+    └── 5. Menghitung Persentase Kelayakan (Tabel Kriteria)
 
 
 BAB IV — HASIL DAN PEMBAHASAN
@@ -161,10 +195,13 @@ BAGIAN AKHIR
 └── Lampiran
 
 
-CATATAN:
-- Sub-bab 7 (Kelas Robot Inovasi) = penjabaran dari "di CV Global Solusi Edukasi"
-- Sub-bab 6 (Output) = penjabaran dari "Aktuator"
-- Sub-bab 5 (Sensor dan Input) = penjabaran dari "Multi Sensor"
-- Sub-bab 4 (Arduino Uno) = penjabaran dari "Berbasis Arduino Uno"
-- Sub-bab 3 (Trainer Kit) = penjabaran dari "Trainer Kit" (sub-bab sendiri)
-- Sub-bab 1-2 = teori umum (R&D, Media Pembelajaran)
+CATATAN PERUBAHAN DARI KERANGKA LAMA:
+1.  BAB I: Identifikasi Masalah jadi 4 poin (sebelumnya 5 poin, ada yang duplikat).
+2.  BAB II: Sub-bab 1 (R&D) dipadatkan. Sub-bab 8 (Kelas Robot Inovasi) dipecah jadi 4 poin (a, b, c, d).
+3.  BAB III: 
+    - Sub-bab C (Subjek & Objek) dipisah jadi 1 & 2.
+    - Sub-bab D (Prosedur) dipecah jadi 5 tahap dengan sub-poin a, b, c.
+    - Sub-bab E (Instrumen) ditambah Tabel Kisi-Kisi.
+    - Sub-bab F (Validitas & Reliabilitas) ditambah rumus Alpha Cronbach.
+    - Sub-bab G (Analisis Data) ditambah 5 langkah analisis.
+4.  BAB IV & V: Belum diisi (masih kerangka).
