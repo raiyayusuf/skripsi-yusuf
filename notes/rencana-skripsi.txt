@@ -14,7 +14,7 @@ Prodi         : Pendidikan Teknik Mekatronika
 Fakultas      : Teknik
 Universitas   : Universitas Negeri Yogyakarta
 Dosen         : Yuwono Indro Hatmojo (NIP: 19760720 200112 1 002)
-Lokasi        : CV Global Solusi Edukasi (GSE)
+Lokasi        : Global Solusi Edukasi (GSE)
 Target        : Lulus cepat, fokus KELAYAKAN (bukan kepraktisan)
 
 
@@ -22,11 +22,11 @@ Target        : Lulus cepat, fokus KELAYAKAN (bukan kepraktisan)
 KEPUTUSAN FIX
 ==================================================
 
-Judul         : Pengembangan Trainer Kit Multi Sensor Berbasis Arduino Uno sebagai Media Pembelajaran Sensor dan Aktuator di CV Global Solusi Edukasi
+Judul         : Pengembangan Trainer Kit Multi Sensor Berbasis Arduino Uno sebagai Media Pembelajaran Sensor dan Aktuator di Global Solusi Edukasi
 Metode        : R&D (Research and Development)
 Model         : ADDIE
 Mikrokontroler: Arduino Uno R3
-Jumlah Sensor : 11 (LDR, Push Button, HC-SR04, IR Obstacle, DHT22, PIR, MQ-6, Rain Drop, Flame Detector, RFID)
+Jumlah Sensor : 10 (LDR, Push Button, HC-SR04, IR Obstacle, DHT22, PIR, MQ-6, Rain Drop, Flame Detector, RFID)
 Jumlah Output : 5 (LED, RGB LED, Buzzer, LCD I2C, Servo MG90S)
 Target User   : Siswa Jenjang Menengah (SMP-SMA) di GSE, Kelas Robot Inovasi
 Fokus         : KELAYAKAN (Validasi Ahli Media & Ahli Materi) dan RESPONS (Siswa).
@@ -34,7 +34,7 @@ Catatan       : TIDAK mengukur KEPRAKTISAN atau EFEKTIVITAS. Hanya sebatas uji k
 
 
 ==================================================
-DAFTAR SENSOR & INPUT (11)
+DAFTAR SENSOR & INPUT (10)
 ==================================================
 
 1. LDR (Light Dependent Resistor) - deteksi cahaya
@@ -47,7 +47,6 @@ DAFTAR SENSOR & INPUT (11)
 8. Rain Drop - deteksi air hujan
 9. Flame Detector (KY-026) - deteksi api
 10. RFID (RC522) - pembaca kartu
-11. Push Button - input digital (sudah termasuk di atas)
 
 
 ==================================================
@@ -83,18 +82,18 @@ Keputusan: ADDIE (Branch, 2009).
 RUMUSAN MASALAH (BAB I) - FINAL
 ==================================================
 
-1. Bagaimana rancang bangun trainer kit multi sensor berbasis Arduino Uno sebagai media pembelajaran sensor dan aktuator di kelas Robot Inovasi CV Global Solusi Edukasi?
+1. Bagaimana rancang bangun trainer kit multi sensor berbasis Arduino Uno sebagai media pembelajaran sensor dan aktuator di kelas Robot Inovasi Global Solusi Edukasi?
 2. Bagaimana tingkat kelayakan trainer kit multi sensor berbasis Arduino Uno menurut penilaian ahli media dan ahli materi?
-3. Bagaimana respons peserta didik terhadap trainer kit multi sensor berbasis Arduino Uno di kelas Robot Inovasi CV Global Solusi Edukasi?
+3. Bagaimana respons peserta didik terhadap trainer kit multi sensor berbasis Arduino Uno di kelas Robot Inovasi Global Solusi Edukasi?
 
 
 ==================================================
 TUJUAN PENELITIAN (BAB I) - FINAL
 ==================================================
 
-1. Menghasilkan trainer kit multi sensor berbasis Arduino Uno sebagai media pembelajaran sensor dan aktuator di kelas Robot Inovasi CV Global Solusi Edukasi.
+1. Menghasilkan trainer kit multi sensor berbasis Arduino Uno sebagai media pembelajaran sensor dan aktuator di kelas Robot Inovasi Global Solusi Edukasi.
 2. Mengetahui tingkat kelayakan trainer kit multi sensor berbasis Arduino Uno menurut penilaian ahli media dan ahli materi.
-3. Mengetahui respons peserta didik terhadap trainer kit multi sensor berbasis Arduino Uno di kelas Robot Inovasi CV Global Solusi Edukasi.
+3. Mengetahui respons peserta didik terhadap trainer kit multi sensor berbasis Arduino Uno di kelas Robot Inovasi Global Solusi Edukasi.
 
 
 ==================================================
@@ -131,7 +130,7 @@ A. Kajian Teori
    5. Sensor dan Input
    6. Output
    7. Pemrograman Mikrokontroler
-   8. Kelas Robot Inovasi di CV Global Solusi Edukasi
+   8. Kelas Robot Inovasi di Global Solusi Edukasi
 
 B. Penelitian yang Relevan
 C. Kerangka Berpikir

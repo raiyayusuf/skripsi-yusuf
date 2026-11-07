@@ -5,7 +5,7 @@ NIM 22518244004
 JUDUL:
 Pengembangan Trainer Kit Multi Sensor Berbasis Arduino Uno
 sebagai Media Pembelajaran Sensor dan Aktuator
-di CV Global Solusi Edukasi
+di Global Solusi Edukasi
 
 
 BAGIAN AWAL
@@ -32,7 +32,7 @@ BAB I — PENDAHULUAN
 ├── D. Rumusan Masalah (3 poin)
 ├── E. Tujuan Penelitian (3 poin)
 ├── F. Manfaat Penelitian
-│   ├── 1. Bagi CV Global Solusi Edukasi
+│   ├── 1. Bagi Global Solusi Edukasi
 │   ├── 2. Bagi Peserta Didik
 │   ├── 3. Bagi Peneliti
 │   └── 4. Bagi Pembaca
@@ -94,8 +94,8 @@ BAB II — KAJIAN PUSTAKA
 │   │   ├── e. Struktur Pengaturan
 │   │   ├── f. Fungsi Digital dan Analog
 │   │   └── g. Proses Upload Program
-│   └── 8. Kelas Robot Inovasi di CV Global Solusi Edukasi
-│       ├── a. Profil CV Global Solusi Edukasi
+│   └── 8. Kelas Robot Inovasi di Global Solusi Edukasi
+│       ├── a. Profil Global Solusi Edukasi
 │       ├── b. Kelas Robot Inovasi
 │       ├── c. Kondisi Pembelajaran di Kelas Robot Inovasi
 │       └── d. Keterkaitan dengan Penelitian

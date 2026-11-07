@@ -1,0 +1,104 @@
+MODUL PANDUAN PEMBELAJARAN — RAIYA YUSUF PRIATMOJO (REVISI FINAL)
+NIM 22518244004
+====================================
+
+JUDUL MODUL:
+Modul Panduan Penggunaan Trainer Kit Multi Sensor Berbasis Arduino Uno
+untuk Kelas Robot Inovasi di Global Solusi Edukasi
+
+
+BAGIAN AWAL
+├── Halaman Judul (Cover)
+├── Halaman Identitas Modul
+├── Kata Pengantar
+├── Daftar Isi
+├── Daftar Gambar
+└── Daftar Tabel
+
+
+BAB I — PENDAHULUAN (Informasi Media Pembelajaran)
+├── A. Informasi Umum (Deskripsi singkat trainer kit & kaitannya dengan GSE)
+├── B. Capaian Pembelajaran (Kompetensi Kognitif & Psikomotorik)
+├── C. Pengenalan Trainer Kit (Gambaran Umum & Foto Produk)
+├── D. Tujuan Umum (Tujuan praktikum)
+└── E. Spesifikasi Produk (Tabel 1. Spesifikasi Produk)
+
+
+BAB II — DASAR TEORI (Fokus ke Hardware & Teori Dasar)
+├── A. Pengertian Sensor dan Aktuator (Definisi umum)
+├── B. Mikrokontroler Arduino Uno
+│   ├── 1. Pengertian Arduino Uno
+│   ├── 2. Spesifikasi Arduino Uno
+│   └── 3. Pin I/O Arduino Uno (Digital, Analog, Power)
+├── C. Jenis-Jenis Sensor (10 Sensor)
+│   ├── 1. Push Button
+│   ├── 2. Sensor LDR
+│   ├── 3. Sensor Ultrasonik (HC-SR04)
+│   ├── 4. Sensor IR Obstacle
+│   ├── 5. Sensor DHT22
+│   ├── 6. Sensor PIR (HC-SR501)
+│   ├── 7. Sensor MQ-6
+│   ├── 8. Sensor Rain Drop
+│   ├── 9. Sensor Flame Detector (KY-026)
+│   └── 10. Sensor RFID (RC522)
+└── D. Jenis-Jenis Output (5 Aktuator)
+    ├── 1. LED (Merah, Kuning, Hijau, Biru)
+    ├── 2. RGB LED
+    ├── 3. Buzzer (Passive)
+    ├── 4. LCD I2C 16x2
+    └── 5. Servo MG90S
+
+
+BAB III — PENGENALAN KOMPONEN DAN SOFTWARE (Fokus ke Teknis & Coding)
+├── A. Komponen Trainer Kit
+│   ├── 1. Diagram Blok Sistem Trainer Kit
+│   ├── 2. Diagram Wiring (Skema Rangkaian)
+│   └── 3. Tata Letak Komponen pada Board
+├── B. Software Arduino IDE
+│   ├── 1. Pengenalan Antarmuka Arduino IDE
+│   ├── 2. Fungsi Menu Utama (Verify, Upload, Serial Monitor)
+│   └── 3. Proses Upload Program ke Arduino
+└── C. Struktur Dasar Pemrograman
+    ├── 1. Variabel dan Tipe Data
+    ├── 2. Fungsi Digital dan Analog (pinMode, digitalWrite, analogRead, dll)
+    ├── 3. Struktur Pengaturan (If, Else, For, While)
+    └── 4. Library yang Digunakan (Contoh: LiquidCrystal_I2C, Servo, DHT)
+
+
+BAB IV — KESELAMATAN KERJA DAN PERAWATAN ALAT
+├── A. Panduan Perawatan
+├── B. Keselamatan Kerja (K3)
+└── C. Troubleshooting Trainer Kit
+    ├── 1. LCD Tidak Menyala
+    ├── 2. Sensor Tidak Terbaca
+    ├── 3. Program Gagal Upload
+    └── 4. Komponen Panas
+
+
+BAB V — PROSEDUR PENGGUNAAN TRAINER KIT
+├── A. Prosedur Umum Penggunaan Trainer Kit
+│   ├── 1. Persiapan (Cek Daya, Koneksi, Software)
+│   ├── 2. Menghubungkan Trainer Kit ke Laptop/PC
+│   ├── 3. Membuka & Mengunggah Program
+│   └── 4. Mengamati Output (LCD, Serial Monitor)
+├── B. Contoh Penerapan Sederhana (Skenario Praktikum)
+│   ├── 1. Menyalakan LED dengan Push Button
+│   ├── 2. Membaca Nilai Sensor LDR (Analog)
+│   ├── 3. Menggerakkan Servo dengan Sensor Ultrasonik
+│   └── 4. Menampilkan Data Sensor DHT22 di LCD I2C
+└── C. Panduan Penggunaan Labsheet
+    └── Cara mengisi tabel pengamatan & menjawab pertanyaan diskusi
+
+
+BAGIAN AKHIR
+├── Glosarium (Daftar istilah teknis: ADC, PWM, I2C, SPI, dll)
+├── Daftar Pustaka
+└── Lampiran
+    ├── Daftar Labsheet (Jika ada)
+    └── Dokumentasi Tambahan (Foto Trainer Kit, Diagram Wiring)
+
+
+CATATAN PERBAIKAN (BIAR AMAN DARI DOSEN):
+1.  **BAB II vs BAB III:** Semua urusan *Software* (Arduino IDE, Struktur Program, Upload) dipindah ke **BAB III**. Jadi BAB II murni teori *hardware* (Sensor, Arduino, Output). Ini menghilangkan pengulangan.
+2.  **Judul Sub-bab:** Di BAB II, judul sub-bab diubah jadi "Pengertian..." dan "Jenis-Jenis..." biar nggak ambigu dan alurnya jelas (Dari umum ke spesifik).
+3.  **BAB V:** Sub-bab A fokus ke "Prosedur Umum", Sub-bab B fokus ke "Contoh Penerapan". Jadi nggak ada kesan ngulang-ngulang.
