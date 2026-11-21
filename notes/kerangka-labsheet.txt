@@ -1,0 +1,141 @@
+Labsheet 1: Dasar Arduino & Output Digital (LED + RGB LED)
+
+Labsheet 2: Input Digital & Keluaran Suara (Push Button + Buzzer)
+
+Labsheet 3: Aktuator Gerak & Tampilan Data (Servo + LCD I2C)
+
+Labsheet 4: Sensor Lingkungan & Cuaca (LDR + Rain Drop)
+
+Labsheet 5: Sensor Jarak, Gerak & Halangan (Ultrasonik + PIR + IR Obstacle)
+
+Labsheet 6: Pemantauan Lingkungan & Peringatan Dini (DHT22 + MQ-6 + Flame)
+
+Labsheet 7: Kontrol Akses & Integrasi Sistem (RFID + Servo + LCD + Buzzer)
+
+============================================================
+TEMPLATE LABSHEET - TRAINER KIT MULTI SENSOR
+============================================================
+Keterangan: teks dalam [ ... ] diisi sendiri untuk tiap labsheet.
+
+
+============================================================
+IDENTITAS LABSHEET
+============================================================
+Judul          : [Judul Labsheet]
+Mata Pelajaran : Robot Inovasi
+Alokasi Waktu  : 1 x 60-90 menit
+Nama           : _________________________
+Kelas          : _________
+
+
+============================================================
+A. KOMPETENSI
+============================================================
+[Tulis 1 paragraf: Peserta didik mampu memahami ... dan
+mengaplikasikannya pada ...]
+
+
+============================================================
+B. SUB KOMPETENSI
+============================================================
+Setelah melaksanakan praktikum, peserta didik diharapkan mampu:
+1. [Poin 1: Mengidentifikasi ...]
+2. [Poin 2: Menjelaskan ...]
+3. [Poin 3: Membuat program ...]
+4. [Poin 4: Menganalisis ...]
+
+
+============================================================
+C. DASAR TEORI
+============================================================
+[Isi penjelasan singkat teori pendukung.
+Contoh: Apa itu sensor X? Bagaimana prinsip kerjanya?
+Apa perbedaannya dengan Y?]
+
+
+============================================================
+D. ALAT DAN BAHAN
+============================================================
+1. Trainer Kit Multi Sensor berbasis Arduino Uno.
+2. Kabel jumper secukupnya.
+3. Laptop yang sudah terinstal Arduino IDE.
+4. Kabel USB.
+5. [Tambahkan komponen lain jika ada, misal: kartu RFID, air,
+   korek api, dll.]
+
+
+============================================================
+E. KESELAMATAN KERJA
+============================================================
+1. Pastikan kabel USB terhubung dengan benar sebelum
+   melakukan upload program.
+2. Jangan menyentuh komponen saat Arduino sedang dialiri
+   daya (menyala).
+3. Hati-hati saat mencabut kabel jumper agar pin tidak
+   bengkok.
+4. Letakkan laptop di permukaan yang rata dan keras untuk
+   mencegah overheating.
+5. [Tambahkan peringatan spesifik, misal: jangan menyemprotkan
+   air berlebihan ke sensor Rain Drop.]
+
+
+============================================================
+F. LANGKAH KERJA
+============================================================
+
+Percobaan 1: [Nama Percobaan 1]
+1. [Langkah 1]
+2. [Langkah 2]
+3. Ketik program berikut:
+
+   ```cpp
+   // [Sisipkan kode program di sini]
+   ```
+
+4. Klik tombol Upload dan amati hasilnya.
+
+------------------------------------------------------------
+
+Percobaan 2: [Nama Percobaan 2]
+1. [Langkah 1]
+2. [Langkah 2]
+3. Ubah program menjadi:
+
+   ```cpp
+   // [Sisipkan kode program di sini]
+   ```
+
+4. Upload kembali dan amati perubahan yang terjadi.
+
+------------------------------------------------------------
+
+Percobaan 3: [Nama Percobaan 3 / Tantangan]
+1. [Langkah-langkah tambahan jika ada]
+
+
+============================================================
+G. TABEL PENGAMATAN
+============================================================
+| No | Objek Percobaan | Kondisi / Nilai | Hasil Visual / Output |
+|----|-----------------|-----------------|-----------------------|
+| 1  | [Objek 1]       | [Kondisi]       | [Hasil]               |
+| 2  | [Objek 2]       | [Kondisi]       | [Hasil]               |
+| 3  | [Objek 3]       | [Kondisi]       | [Hasil]               |
+
+
+============================================================
+H. DISKUSI
+============================================================
+1. [Pertanyaan analisis 1: Mengapa hal X terjadi?]
+2. [Pertanyaan analisis 2: Apa fungsi dari perintah Y?]
+
+
+============================================================
+I. TUGAS
+============================================================
+1. [Tugas 1: Modifikasi program / tantangan mandiri]
+2. [Tugas 2: Rancang sistem mini / tantangan lanjutan]
+
+============================================================
+END OF TEMPLATE
+============================================================

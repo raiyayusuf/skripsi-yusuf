@@ -1,225 +1,37 @@
-PEMETAAN REFERENSI SKRIPSI (BAB I - III)
-📍 BAB I: PENDAHULUAN
-Fokus: Fenomena di lapangan, masalah GSE, pentingnya media, dan urgensi penelitian.
-
-Galar & Kumar (2024)
-
-Judul: Digital twins: Definition, implementation and applications
-
-Fungsi: Paragraf awal Latar Belakang (Revolusi Industri 4.0, otomasi, dan pentingnya SDM).
-
-Miranda, Darmansyah, & Desyandri (2022)
-
-Judul: Perkembangan Teknologi Informasi dan Komunikasi Dalam Mendukung Penggunaan Media Pembelajaran
-
-Fungsi: Latar Belakang (menjelaskan pentingnya media pembelajaran di era teknologi).
-
-Sadiman et al. (1986 / 2011)
-
-Judul: Media pendidikan : pengertian, pengembangan, dan pemanfaatannya
-
-Fungsi: Latar Belakang (Definisi/pentingnya media pembelajaran secara umum, gantiin posisi Arsyad).
-
-Wicaksono (2016)
-
-Judul: Pengembangan trainer kit sensor sebagai media pembelajaran... (Skripsi)
-
-Fungsi: Latar Belakang (Masalah waktu persiapan praktikum, risiko kerusakan komponen, dan efisiensi).
-
-Nur & Suprianto (2016)
-
-Judul: Pengembangan Trainer Kit Sensor Berbasis Arduino...
-
-Fungsi: Latar Belakang (Dampak buruk dari pengulangan perakitan komponen terhadap motivasi siswa).
-
-Usman & Pratiwi (2023)
-
-Judul: Implementasi Trainer Multi-Sensor Berbasis Arduino
-
-Fungsi: Latar Belakang (Alasan pemilihan Arduino Uno karena beginner friendly).
-
-📍 BAB II: KAJIAN PUSTAKA
-Fokus: Landasan teori, penelitian relevan, dan kerangka berpikir.
-
-1. Penelitian & Pengembangan (R&D) / ADDIE
-Sugiyono (2013)
-
-Judul: Metode Penelitian Kuantitatif, Kualitatif, dan R&D
-
-Fungsi: Kajian Teori 1 (Pengertian R&D dan model ADDIE).
-
-Branch (2009)
-
-Judul: Instructional Design: The ADDIE Approach
-
-Fungsi: Kajian Teori 1 (Penjelasan tahapan model ADDIE secara detail).
-
-Okpatrioka (2023)
-
-Judul: Research And Development (R&D) Penelitian Yang Inovatif Dalam Pendidikan
-
-Fungsi: Kajian Teori 1 (Karakteristik dan tujuan R&D).
-
-Rahayu (2025)
-
-Judul: Metode Penelitian dan Pengembangan (R&D) : Pengertian, Jenis dan Tahapan
-
-Fungsi: Kajian Teori 1 (Karakteristik dan tujuan R&D).
-
-Spatioti, Kazandis, & Pange (2022)
-
-Judul: A Comparative Study of the ADDIE Instructional Design Model in Distance Education
-
-Fungsi: Kajian Teori 1 (Penguatan model ADDIE).
-
-2. Media Pembelajaran
-Sadiman et al. (1986 / 2011)
-
-Judul: Media pendidikan : pengertian, pengembangan, dan pemanfaatannya
-
-Fungsi: Kajian Teori 2 (Definisi, fungsi, kriteria, dan klasifikasi media).
-
-Daniyati et al. (2023)
-
-Judul: Konsep Dasar Media Pembelajaran
-
-Fungsi: Kajian Teori 2 (Fungsi afektif/kognitif media).
-
-Fauzan et al. (2024)
-
-Judul: Pembelajaran Media Audio Visual Dalam Penjas Systematic Literatur Review
-
-Fungsi: Kajian Teori 2 (Fungsi media dan pengaruhnya ke peserta didik).
-
-Shoffa et al. (2023)
-
-Judul: Media Pembelajaran
-
-Fungsi: Kajian Teori 2 (Kriteria media yang baik: kesesuaian, kemudahan, kemenarikan, kebermanfaatan).
-
-3. Trainer Kit
-Hasan, S dalam Anas (2016)
-
-Fungsi: Kajian Teori 3 (Pengertian Trainer Kit).
-
-Ihsan (2024)
-
-Judul: Pengembangan Trainer Kit Sensor Suhu Berbasis Arduino Uno...
-
-Fungsi: Kajian Teori 3 (Fungsi dan karakteristik Trainer Kit).
-
-Wardiyanto (2019)
-
-Judul: Pengembangan Trainer Kit Mikrokontroler Arduino Uno Berbasis IoT...
-
-Fungsi: Kajian Teori 3 (Fungsi dan karakteristik Trainer Kit).
-
-Van den Akker (1999) & Nieveen (1999)
-
-Fungsi: Kajian Teori 3/7 (Kriteria kualitas produk: validity, practicality, effectiveness).
-
-4. Arduino Uno & Sensor
-Usman & Pratiwi (2023) & Sumardi (2013)
-
-Fungsi: Kajian Teori 4 (Pengertian dan Spesifikasi Arduino Uno).
-
-Sensor & Output (LDR, Ultrasonik, DHT22, PIR, MQ-6, RFID, LED, Servo, dll)
-
-Catatan Khusus: Wajib tambah referensi tambahan (buku datasheet, modul, atau jurnal) buat penjelasan masing-masing sensor ini.
-
-5. GSE & Penelitian Relevan
-Global Solusi Edukasi
-
-Fungsi: Kajian Teori 8 (Profil GSE dan Kelas Robot Inovasi). (Berdasarkan observasi lapangan lu).
-
-Wicaksono (2016)
-
-Fungsi: Penelitian Relevan (Spesifik membahas Trainer Kit Sensor).
-
-Ihsan (2024) & Wardiyanto (2019)
-
-Fungsi: Penelitian Relevan.
-
-Farhan (2026), Aulia (2026), Sheva (2025)
-
-Fungsi: Penguatan Metodologi (Dikutip di akhir Kajian Teori ADDIE sebagai bukti R&D relevan).
-
-Handoko (2020) (Baru masuk Mendeley)
-
-Judul: Pengembangan trainer sensor dengan software interaktif...
-
-Fungsi: Penelitian Relevan (Bisa lu tambahkan).
-
-Saraswati (2018) (Baru masuk Mendeley)
-
-Judul: Pengembangan trainer mikrokontroler Arduino Uno R3...
-
-Fungsi: Penelitian Relevan (Bisa lu tambahkan).
-
-Baskoro et al. (2025), Rohman et al. (2024), Rusjayana et al. (2026), Ismail et al. (2026)
-
-Fungsi: Opsi tambahan buat Penelitian Relevan (biar referensi lu makin banyak dan update).
-
-📍 BAB III: METODE PENELITIAN
-Fokus: Desain penelitian, instrumen, dan analisis data.
-
-Sugiyono (2013) & Branch (2009)
-
-Fungsi: Jenis Penelitian (R&D) & Prosedur Pengembangan (ADDIE).
-
-Sugiyono (2013) & Widoyoko (2025)
-
-Judul (Widoyoko): Teknik Penyusunan Instrumen Penelitian
-
-Fungsi: Instrumen Penelitian (Skala Likert 4 tingkat, kisi-kisi, angket).
-
-Sugiyono (2013)
-
-Fungsi: Teknik Analisis Data (Rumus rata-rata, mencari skor ideal, dan konversi kategori kelayakan).
-
-
-batas----------------
- Referensi Media Pembelajaran & Teori Umum
-Konsep Media Pembelajaran.pdf (Daniyati et al., 2023)
-
-Media Pendidikan Peran dan Fungsinya dalam Pembelajaran.pdf (Umar, 2014)
-
-Pengembangan Media Pembelajaran Untuk Meningkatkan Hasil Belajar Siswa.pdf (Teni Nurrita, 2018)
-
-Media Pembelajaran - C. Riana.pdf (Cepi Riana)
-
-E-BOOK - Media Pembelajaran.pdf (Rahmat et al., 2026)
-
-Perkembangan Teknologi Informasi dan Komunikasi Dalam Mendukung Penggunaan Media Pembelajaran.pdf (Miranda et al., 2022)
-
-Pembelajaran Media Audio Visual dalam Penjas Systematic Literatur Review.pdf (Fauzan et al., 2024)
-
-Gamifikasi dalam Pembelajaran Sejarah...pdf (Martdana & Atno, 2025)
-
-📚 Referensi R&D dan ADDIE
-Metode Penelitian Kuantitatif Kualitatif dan R&D - Sugiyono.pdf
-
-Metode Penelitian dan Pengembangan (R&D) Pengertian, Jenis dan Tahapan.pdf (Rahayu, 2025)
-
-Research And Development(R&D)PenelitianYang Inovatif Dalam Pendidikan.pdf (Okpatrioka, 2023)
-
-A Comparative Study of the ADDIE Instructional Design Model in Distance Education.pdf (Spatioti et al., 2022)
-
-📚 Referensi Trainer Kit & Arduino (Buat Nanti di No. 3)
-Pengembangan Trainer Kit Sensor Suhu...pdf (Ihsan & Munir, 2024)
-
-Pengembangan Trainer Kit Mikrokontroller Arduino Uno...pdf (Wardiyanto, 2019)
-
-Perancangan Trainer Kit Sensor dan Aktuator...pdf (Baskoro et al., 2025)
-
-Rancang Bangun Trainer Kit Berbasis Arduino...pdf (Alamsyah et al., 2022)
-
-Implementasi Trainer Multi-Sensor Berbasis Arduino.pdf (Usman & Pratiwi, 2023)
-
-Pengembangan Training Kit Parkir Cerdas...pdf (Ismail et al., 2026)
-
-Media Trainer Kit Untuk Meningkatkan Kemandirian...pdf (Rohman et al., 2024)
-
-Pengembangan Trainer Kit Pada Praktikum Mikrokontroler...pdf (Wibowo & Nandika, 2022)
-
-Rancang Bangun KIT Berbasis Arduino Uno...pdf (Rusjayana et al., 2026)
+DAFTAR REFERENSI MENDELEY (URUT ABJAD)
+
+1. Alamsyah, Nur; Arfandy, Hamdan; Rahma, Rahma Muhaydyn; Darmawansyah, Ahmad (2022). Rancang Bangun Trainer Kit Berbasis Arduino Sebagai Media Pembelajaran Pada Mata Kuliah Robotika.
+2. Arsyad, Azhar (2011). Media pembelajaran.
+3. Asril, Agustian; Latief, Mukhlisulfatih; Setiawan, Edi (2022). Pengembangan media pembelajaran pemrograman dasar kelas X TKJ di SMK Negeri 3 Gorontalo.
+4. Baskoro, Farid; Subuh Isnur Haryudo; Rohman, Miftahur; Kartini, Unti Three (2025). Perancangan Trainer Kit Sensor dan Aktuator serta Pengembangan Modul Pembelajaran Berbasis Proyek untuk Meningkatkan Kompetensi Mahasiswa Teknik Elektro di Universitas Negeri Surabaya (UNESA).
+5. Branch, Robert Maribe (2009). Instructional Design: The ADDIE Approach.
+6. Corey, Jason (2013). Technical ear training: Tools and practical methods.
+7. Daniyati, Ani; Saputri, Ismy Bulqis; Wijaya, Ricken; Septiyani, Siti Aqila; Setiawan, Usep (2023). Konsep Dasar Media Pembelajaran.
+8. Fauzan, Muhammad Ghani; Rahmat, Alit; Carsiwan, Carsiwan (2024). Pembelajaran Media Audio Visual Dalam Penjas Systematic Literatur Review.
+9. Febriane, Tiara Vera (2017). Pengaruh penggunaan media pembelajaran dan fasilitas belajar terhadap kompetensi profesional guru Sekolah Dasar Negeri Se-Gugus Gatot Subroto Kabupaten Tegal.
+10. Galar, Diego; Kumar, Uday (2024). Digital twins: Definition, implementation and applications.
+11. Handoko, Gayuh Tri (2020). Pengembangan trainer sensor dengan software interaktif penampil data menggunakan Arduino Uno pada mata pelajaran sensor dan aktuator di SMK Kristen 1 Klaten.
+12. Ihsan, Cecen H.; Munir, Muhammad (2024). Pengembangan Trainer Kit Sensor Suhu Berbasis Arduino Uno untuk Siswa Kelas XI Mapel Teknik Pemrograman SMK Muhammadiyah 1 Bantul. (Catatan: Ada 2 entri di Mendeley, tahun 2019 & 2024. Pakai yang 2024)
+13. Ismail, Taufiq; Fathoni, Ali Nur; Baskoro, Farid; Achmad, Fendi (2026). Pengembangan Training Kit Parkir Cerdas Berbasis Esp 32 untuk Meningkatkan Hasil Belajar Peserta Didik pada Praktikum Mikrokontroler SMKN 2 Lamongan.
+14. Martdana, Rafid Ari; Atno, Atno (2025). Gamifikasi dalam Pembelajaran Sejarah: Analisis Literatur Terhadap Dampaknya pada Motivasi dan Keterlibatan Belajar Siswa.
+15. Miranda; Darmansyah; Desyandri (2022). Perkembangan Teknologi Informasi dan Komunikasi Dalam Mendukung Penggunaan Media Pembelajaran.
+16. Nieveen, Nienke (1999). Prototyping to Reach Product Quality.
+17. Nurrita, Teni (2018). Pengembangan Media Pembelajaran Untuk Meningkatkan Hasil Belajar Siswa.
+18. Okpatrioka (2023). Research And Development (R&D) Penelitian Yang Inovatif Dalam Pendidikan.
+19. Prasetyo, Vincent Kenutama (2025). Pengembangan simulator kinematika dan navigasi swerve drive autonomous mobile robot sebagai media pembelajaran pada mata kuliah praktik robotika.
+20. Rahayu, Ade (2025). Metode Penelitian dan Pengembangan (R&D) : Pengertian, Jenis dan Tahapan.
+21. Rahmat, Stephanus Turibius; M. Isa; Nasution, Gusti Aulia; Imronudin; Liputo, Muhammad Arif; Martati, Badruli (2026). Media Pembelajaran.
+22. Riana, Cepi (2008). Media Pembelajaran. (Catatan: Ada 2 entri di Mendeley, tahun 2008 & 2024. Sesuaikan dengan naskah)
+23. Rohman, Moh. Arif; Rohmah, Ana Qaimah Lailiyatul Mela Diyah; Cholilah; Kusmiyati; Muhajir (2024). Media Trainer Kit To Improve Students' Independence And Understanding In Practical Learning Media Trainer Kit Untuk Meningkatkan Kemandirian Dan Pemahaman Siswa Dalam Pembelajaran Praktik.
+24. Rusjayana, R. F.; Kholis, N.; Rusimamto, P. W.; Zuhrie, M. S. (2026). Rancang Bangun KIT Berbasis Arduino Uno Sebagai Media Penunjang Praktikum Terhadap Motivasi Belajar Peserta Didik Kelas XI Pemrograman dan Aplikasi Mikrokontroler di SMKN 7 Surabaya.
+25. Sadiman, Arif S.; Rahardjo, R.; Haryono, Anung; Rahardjito (2012). Media pendidikan : pengertian, pengembangan, dan pemanfaatannya.
+26. Saraswati, Tika Danti (2018). Pengembangan trainer mikrokontroler Arduino Uno R3 siswa kelas XI paket keahlian teknik audio video di SMK Ma'arif Salam.
+27. Shoffa, Shoffan; Subroto, Desty Endrawati; Nasution, Fadhilah Syam; Astuti, Widi; Romadi, Ugik; Cholid, Fahmi; Azhari, Devi Syukri; Hafidz; Kardi, Juliwis; Umar, Razak H.; Gusmirawati (2023). Media pembelajaran.
+28. Spatioti, Adamantia G.; Kazanidis, Ioannis; Pange, Jenny (2022). A Comparative Study of the ADDIE Instructional Design Model in Distance Education.
+29. Sugiyono (2013). Metode Penelitian Pendidikan Pendekatan Kuantitatif, Kualitatif, dan R&D.
+30. Umar, Umar (2014). Media Pembelajaran.
+31. Usman, Dani; Pratiwi, Kiki (2022). Implementasi Trainer Multi-Sensor Berbasis Arduino.
+32. van den Akker, Jan (1999). Principles and Methods of Development Research.
+33. Wardiyanto, Muhammad Febri (2019). Pengembangan trainer kit mikrokontroler Arduino Uno berbasis IoT sebagai media penunjang pembelajaran pada mata pelajaran sistem kontrol terprogram di SMK Negeri 1 Jenangan Ponorogo.
+34. Wibowo, Muhammad Mufti; Nandika, Reza (2022). Pengembangan Trainer Kit Pada Praktikum Mikrokontroler Berbasis Internet of Things Menggunakan Blynk.
+35. Wicaksono, Arvin Heri (2016). Pengembangan Trainer Kit Sensor sebagai Media Pembelajaran Mata Pelajaran Sensor dan Aktuator di SMK Negeri 2 Pengasih.

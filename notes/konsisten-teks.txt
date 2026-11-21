@@ -30,44 +30,248 @@ BAGIAN 1: KOSA KATA KONSISTEN
 
 BAGIAN 2: KATA YANG WAJIB ITALIC (CETAK MIRING)
 ----------------------------------------------------
-*Catatan: Wajib italic karena ini istilah asing yang belum diserap atau nama software/tools sesuai Panduan UNY Bab V Poin 8.*
+# DAFTAR HURUF MIRING — Skripsi Raiya Yusuf Priatmojo (Bab I-III + Daftar Pustaka)
 
-Istilah Asing yang Belum Diserap:
+Sumber aturan: Panduan Skripsi UNY 2023, Bab V B.8 (h.27): huruf miring untuk kata atau kalimat **bahasa asing atau bahasa daerah**, mengikuti EYD V. Daftar Pustaka mengikuti aturan DP di panduan (APA 7).
+Patokan tambahan: panduan sendiri memiringkan *layout, online, web, screenshot, Ethical Clearance, Abstract, E-Journal, et al.*
 
-1. Research and Development (R&D)
-2. embedded computer
-3. open source
-4. library
-5. board
-6. wiring
-7. breadboard
-8. plug-and-play
-9. checklist
-10. hardware
-11. software
-12. validity
-13. practicality
-14. effectiveness
-15. analysis
-16. design
-17. development
-18. implementation
-19. evaluation
-20. coding
-21. visual design
-22. Internet of Things (IoT)
-23. push button
-24. sensor flex
-25. e-journal
-26. e-learning
-27. in-circuit serial programming (ICSP)
-28. Analog-to-Digital Converter (ADC)
-29. Pulse Width Modulation (PWM)
+Cakupan scan: naskah versi ke-2 (111 halaman PDF). Halaman = **nomor cetak naskah** (PDF = cetak + 2). Bab I h.1-11, Bab II h.12-81, Bab III h.82-102, kerangka Bab IV h.103-105, Daftar Pustaka h.106-108.
+Angka dalam kurung = jumlah kemunculan di halaman itu, mis. `5(3)` = 3 kali di h.5.
 
-BAGIAN 3: ATURAN TAMBAHAN
-----------------------------------------------------
-1. Jangan pakai garis bawah (underline) di URL atau link.
-2. Nama orang (Wicaksono, Ihsan) TIDAK ITALIC.
-3. Nama tempat/lembaga (Global Solusi Edukasi, UNY) TIDAK ITALIC.
-4. Nama komponen baku (Arduino Uno, LED, LCD, DHT22) TIDAK ITALIC.
-5. Pastikan konsisten: Kalau "Arduino IDE" di Bab I italic, di Bab II juga harus italic.
+Legenda: ✅ sudah miring | ❌ belum miring | ⚠️ sebagian | `[x]` semua kemunculan sudah benar | `[ ]` masih ada pekerjaan.
+
+Metode: status miring dibaca dari font tiap kata di PDF (bukan dari tampilan). Teks di dalam gambar/diagram (ADDIE, kerangka berpikir) tidak terbaca, cek manual. Klasifikasi "abu-abu" perlu dicek ke KBBI daring.
+
+Ringkasan: **562 kemunculan belum miring** di bagian 2 (A 339, abu-abu istilah 135, nama komponen 36, kode 52); yang sudah miring 47.
+
+Pertanyaan untuk dosen pembimbing: (1) istilah asing di dalam judul sumber yang diberi tanda petik (h.5, 74, 76, 77), (2) kode inline, (3) nama jenis komponen.
+
+---
+## 1. INVENTARIS YANG SUDAH MIRING (per halaman)
+
+Ini semua teks yang sekarang sudah bercetak miring di naskah (sampul, Bab I-III, dan kerangka Bab IV).
+
+| Halaman | Yang sudah miring |
+|---|---|
+| Sampul | TRAINER KIT |
+| h.2 | Internet of Things; coding; visual design; Coding; Coding |
+| h.4 | trainer kit; plug-and-play |
+| h.5 | library |
+| h.6 | breadboard; wiring; plug-and-play; board; wiring |
+| h.14 | Analysis; Design; Development |
+| h.15 | Implementation; Evaluation |
+| h.17 | hardware; software |
+| h.30 | validity; practicality; effectiveness |
+| h.32 | embedded computer; development board |
+| h.33 | open source; open source; library |
+| h.37 | Analog-to-Digital Converter |
+| h.39 | In-circuit serial programming |
+| h.58 | Pulse Width Modulation |
+| h.59 | Pulse Width Modulation; library |
+| h.60 | Software |
+| h.69 | board |
+| h.70 | Internet of Things |
+| h.71 | Coding; Coding |
+| h.73 | plug-and-play; board; wiring |
+| h.91 | plug-and-play |
+| h.103 (kerangka Bab IV) | Analysis; Design; Development; Implementation; Evaluation |
+
+Total: **47 kemunculan miring** di Bab I-III dan kerangka Bab IV, ditambah 1 di sampul.
+
+---
+
+## 2. MASTER LIST — per istilah (✅ sudah miring, ❌ belum miring)
+
+### 2A. PASTI MIRING — istilah teknologi dan praktikum
+
+- [ ] **et al.** ❌ — ❌ belum di h.1, 16(2), 17(3), 18(3), 19, 20, 21, 23, 25(2), 27(3), 40(2), 41(2), 75(2), 76(2) _(panduan sendiri memiringkan "et al."; 26 kemunculan, semua masih tegak)_
+- [ ] **trainer kit** ⚠️ — ✅ miring di h.4 | ❌ belum di h.4(3), 5(5), 6(2), 7(3), 8(5), 10(3), 11, 14(4), 23(8), 24(9), 25(4), 26(5), 27(5), 28(5), 29(2), 30(7), 31(5), 35, 37, 38, 40(3), 41(2), 43, 47, 50, 55, 56, 69, 73(4), 74(5), 75, 76(6), 77, 78(2), 79, 81(4), 82, 85(3), 88, 89(3), 90, 91(3), 92, 93, 96 _(sampul: TRAINER KIT ✅. Termasuk judul subbab (h.23, 24, 26, 28, 30) dan judul penelitian di h.5)_
+- [ ] **kit-nya** ❌ — ❌ belum di h.41 _(miringkan "kit" saja, "-nya" tegak)_
+- [ ] **trainer (berdiri sendiri)** ❌ — ❌ belum di h.4, 23, 27, 77(5) _(h.77 termasuk judul sumber dalam tanda petik dan nama produk TMS; tanyakan dosen)_
+- [ ] **plug-and-play** ⚠️ — ✅ miring di h.4, 6, 73, 91 | ❌ belum di h.77, 78(2), 87, 88, 89 _(h.87 patah baris "plug-/and-play")_
+- [ ] **wiring** ⚠️ — ✅ miring di h.6(2), 73 | ❌ belum di h.78, 79, 87, 88, 89, 95
+- [ ] **board** ⚠️ — ✅ miring di h.6, 69, 73 | ❌ belum di h.14, 33, 87(2), 89(2), 90, 94 _(h.32 "development board" dihitung terpisah)_
+- [ ] **breadboard** ⚠️ — ✅ miring di h.6 | ❌ belum di h.78, 88
+- [ ] **hardware** ⚠️ — ✅ miring di h.17 | ❌ belum di h.14, 77, 83, 85, 86, 89, 90
+- [ ] **software** ⚠️ — ✅ miring di h.17, 60 | ❌ belum di h.77 _(h.60 = judul gambar "Software Arduino IDE")_
+- [ ] **library** ⚠️ — ✅ miring di h.5, 33, 59 | ❌ belum di h.78
+- [x] **embedded computer** ✅ — ✅ miring di h.32
+- [x] **development board** ✅ — ✅ miring di h.32
+- [x] **open source** ✅ — ✅ miring di h.33(2)
+- [ ] **Internet of Things** ⚠️ — ✅ miring di h.2, 70 | ❌ belum di h.79 _(singkatan IoT tegak)_
+- [x] **coding** ✅ — ✅ miring di h.2(3), 71(2) _(h.2 dan h.71 muncul di nama kelas "Coding Scratch" dan "Coding Python"; lihat bagian 2G)_
+- [x] **visual design** ✅ — ✅ miring di h.2
+- [x] **Pulse Width Modulation** ✅ — ✅ miring di h.58, 59 _(singkatan PWM tegak)_
+- [x] **Analog-to-Digital Converter** ✅ — ✅ miring di h.37 _(singkatan ADC tegak)_
+- [x] **In-circuit serial programming** ✅ — ✅ miring di h.39 _(singkatan ICSP tegak)_
+- [ ] **hands-on training** ❌ — ❌ belum di h.26
+- [ ] **built-in** ❌ — ❌ belum di h.39 _("LED built-in")_
+- [ ] **web** ❌ — ❌ belum di h.71 _(panduan memiringkan "web")_
+- [ ] **screenshot** ❌ — ❌ belum di h.94 _(panduan memiringkan "screenshot")_
+
+### 2B. PASTI MIRING — model pengembangan dan metodologi
+
+- [ ] **Analysis** ⚠️ — ✅ miring di h.14, 103 | ❌ belum di h.13, 79, 82, 83, 85, 87(2) _(h.103 = kerangka Bab IV; yang belum termasuk judul subbab Bab III)_
+- [ ] **Design** ⚠️ — ✅ miring di h.14, 103 | ❌ belum di h.13, 79, 82, 83, 85, 87, 89
+- [ ] **Development** ⚠️ — ✅ miring di h.14, 103 | ❌ belum di h.13, 79, 82, 83, 85, 87, 90
+- [ ] **Implementation** ⚠️ — ✅ miring di h.15, 103 | ❌ belum di h.13, 79, 82, 83, 85, 87, 91
+- [ ] **Evaluation** ⚠️ — ✅ miring di h.15, 103 | ❌ belum di h.13, 79, 82, 83, 85, 87, 92
+- [ ] **Research and Development** ❌ — ❌ belum di h.12, 74, 75, 82, 84 _(singkatan R&D tegak)_
+- [x] **validity / practicality / effectiveness** ✅ — ✅ miring di h.30(3) _(kevalidan, kepraktisan, keefektifan)_
+- [ ] **construct validity** ❌ — ❌ belum di h.97
+- [ ] **expert judgment** ❌ — ❌ belum di h.97
+- [ ] **Project-Based Learning** ❌ — ❌ belum di h.76 _(singkatan PBL tegak)_
+- [ ] **prototyping and assembling** ❌ — ❌ belum di h.77
+- [ ] **pre-test** ❌ — ❌ belum di h.76
+- [ ] **post-test** ❌ — ❌ belum di h.76
+- [ ] **scaffolding** ❌ — ❌ belum di h.79
+
+### 2C. PASTI MIRING — media pembelajaran (Bab II)
+
+- [ ] **medius (kata Latin)** ❌ — ❌ belum di h.16
+- [ ] **Computer Assisted Instruction** ❌ — ❌ belum di h.22 _(CAI tegak)_
+- [ ] **Computer Managed Instruction** ❌ — ❌ belum di h.22 _(CMI tegak)_
+- [ ] **projected media** ❌ — ❌ belum di h.22
+- [ ] **nonprojected media** ❌ — ❌ belum di h.22
+- [ ] **computer based media** ❌ — ❌ belum di h.22
+- [ ] **opaque** ❌ — ❌ belum di h.22
+- [ ] **slide** ❌ — ❌ belum di h.22(2)
+- [ ] **MP3 player** ❌ — ❌ belum di h.22
+
+### 2D. PASTI MIRING — istilah Arduino dan komponen (Bab II)
+
+- [ ] **Light Dependent Resistor** ❌ — ❌ belum di h.43 _(LDR tegak)_
+- [ ] **Passive Infrared** ❌ — ❌ belum di h.49 _(PIR tegak)_
+- [ ] **Light Emitting Diode** ❌ — ❌ belum di h.54 _(LED tegak)_
+- [ ] **Liquid Crystal Display** ❌ — ❌ belum di h.57 _(LCD tegak)_
+- [ ] **Inter-Integrated Circuit** ❌ — ❌ belum di h.57 _(I2C tegak)_
+- [ ] **Master In Slave Out** ❌ — ❌ belum di h.53
+- [ ] **Master Out Slave In** ❌ — ❌ belum di h.53
+- [ ] **Serial Clock (Line)** ❌ — ❌ belum di h.53, 58
+- [ ] **Slave Select** ❌ — ❌ belum di h.53
+- [ ] **Serial Data Line** ❌ — ❌ belum di h.58
+- [ ] **Red / Green / Blue** ❌ — ❌ belum di h.55(3)
+- [ ] **common cathode** ❌ — ❌ belum di h.55
+- [ ] **hole** ❌ — ❌ belum di h.54 _("elektron dan hole")_
+- [ ] **bootloader** ❌ — ❌ belum di h.34, 39
+- [ ] **flash (memory)** ❌ — ❌ belum di h.33, 34, 35
+- [ ] **clock speed** ❌ — ❌ belum di h.33, 35
+- [ ] **interrupt** ❌ — ❌ belum di h.36, 37, 39(2)
+- [ ] **polling** ❌ — ❌ belum di h.36, 37
+- [ ] **floating** ❌ — ❌ belum di h.42(2)
+- [ ] **pull-up** ❌ — ❌ belum di h.42
+- [ ] **pull-down** ❌ — ❌ belum di h.42
+- [ ] **momentary** ❌ — ❌ belum di h.42
+- [ ] **echo** ❌ — ❌ belum di h.44(2)
+- [ ] **trigger** ❌ — ❌ belum di h.44
+- [ ] **transmitter** ❌ — ❌ belum di h.44(2)
+- [ ] **receiver** ❌ — ❌ belum di h.44(2)
+- [ ] **power (pin power)** ❌ — ❌ belum di h.36, 38(3), 39(6) _(termasuk label kategori "Power" di tabel pin)_
+- [ ] **high / low** ❌ — ❌ belum di h.41(2), 42(2), 46(2), 60(2), 68(2), 69(2) _(h.60, 68-69 sebagian berupa konstanta kode HIGH/LOW; ikut keputusan 2H)_
+- [ ] **ON / OFF** ❌ — ❌ belum di h.42(2) _("ON" dan "OFF" pada penjelasan push button)_
+- [ ] **ground** ❌ — ❌ belum di h.38, 39, 43, 45, 46, 47, 49, 51(2), 52, 53, 54, 55, 56, 57(2), 59 _(termasuk label di tabel pin)_
+
+### 2E. ABU-ABU — kemungkinan belum serapan KBBI (condong miring; cek KBBI daring, putuskan, lalu konsisten)
+
+- [ ] **buzzer** ❌ — ❌ belum di h.2, 7, 11, 29, 34, 40, 56(7), 57, 69, 71, 75, 76, 88
+- [ ] **casing** ❌ — ❌ belum di h.11, 29(5), 89
+- [ ] **hardcase** ❌ — ❌ belum di h.11
+- [ ] **labsheet** ❌ — ❌ belum di h.4, 6, 7, 11(2), 14(2), 72, 73, 78, 79, 83, 85, 87, 88, 89(2), 90(2), 91(2), 95
+- [ ] **jobsheet** ❌ — ❌ belum di h.27(2), 74, 75(2)
+- [ ] **checklist** ❌ — ❌ belum di h.15, 20, 82
+- [ ] **error** ❌ — ❌ belum di h.77
+- [ ] **box** ❌ — ❌ belum di h.27
+- [ ] **shield** ❌ — ❌ belum di h.33(2)
+- [ ] **SD Card** ❌ — ❌ belum di h.33
+- [ ] **chip** ❌ — ❌ belum di h.32, 33, 36, 37, 53
+- [ ] **clock** ❌ — ❌ belum di h.32, 53, 58
+- [ ] **upload** ❌ — ❌ belum di h.33, 36, 37, 39, 40, 59, 69(3)
+- [ ] **input** ❌ — ❌ belum di h.11, 28, 33, 34(4), 35, 36(2), 38, 39(2), 40, 41(3), 68, 75 _(termasuk judul subbab "Sensor dan Input")_
+- [ ] **output** ❌ — ❌ belum di h.7, 11, 28, 29(4), 34, 36(2), 38(2), 39(3), 54, 60(2), 61(2), 68, 69, 75, 77, 87, 90(3), 95 _(termasuk judul subbab "Output")_
+- [ ] **reset / mereset** ❌ — ❌ belum di h.38(3), 39(2), 53
+- [ ] **relay** ❌ — ❌ belum di h.75
+- [ ] **fan** ❌ — ❌ belum di h.75
+
+### 2F. ABU-ABU — nama jenis sensor/komponen di daftar dan tabel (pilih: miringkan semua atau Indonesiakan)
+
+- [ ] **Rain Drop** ❌ — ❌ belum di h.7, 11, 37, 40, 51(3), 52, 88
+- [ ] **Flame Detector** ❌ — ❌ belum di h.7, 11, 40, 52(3), 53, 88
+- [ ] **IR Obstacle (Avoidance)** ❌ — ❌ belum di h.7, 11, 40, 45(2), 46(2), 88
+- [ ] **Push Button** ❌ — ❌ belum di h.7, 11, 41, 42(5), 88
+- [ ] **Ultrasonic** ❌ — ❌ belum di h.11, 44 _(di bagian lain memakai "ultrasonik"; samakan)_
+
+### 2G. PERLU DICEK — nama kelas yang sudah (sebagian) miring
+
+- [ ] **Coding Scratch / Coding Python** ⚠️ — h.2 dan h.71: hanya kata "Coding" yang miring, "Scratch" dan "Python" tegak. Nama kelas = nama diri, jadi pilih konsisten: semua tegak (umumnya), atau semua miring. Kata "coding" generik tetap miring.
+
+### 2H. KODE PROGRAM di narasi dan tabel (blok kode sudah monospace Consolas/Fira Code; keputusan inline: miring atau monospace, tanyakan dosen)
+
+- [ ] **setup()** ❌ — ❌ belum di h.60(3), 61(2)
+- [ ] **loop()** ❌ — ❌ belum di h.58, 60(3), 61
+- [ ] **pinMode** ❌ — ❌ belum di h.61
+- [ ] **if-else** ❌ — ❌ belum di h.65(2), 66(10)
+- [ ] **switch-case** ❌ — ❌ belum di h.66(3), 67
+- [ ] **do-while** ❌ — ❌ belum di h.68(4)
+- [ ] **while** ❌ — ❌ belum di h.67(5), 68(2)
+- [ ] **default** ❌ — ❌ belum di h.67
+- [ ] **true / false** ❌ — ❌ belum di h.63(2), 65(2)
+- [ ] **boolean** ❌ — ❌ belum di h.63
+- [ ] **tipe data: int, long, float, char, byte, double** ❌ — ❌ belum di h.62(8) _(h.62)_
+- [ ] **Fungsi di Tabel 9 (h.68-69)** — pinMode, digitalWrite, digitalRead, analogRead, analogWrite, delay, millis, map, constrain, tone, noTone, pulseIn: ikut keputusan kode inline di atas.
+
+---
+
+## 3. DAFTAR PUSTAKA — status huruf miring per entri (h.106-108)
+
+Aturan: APA 7 sesuai panduan. Judul buku dan judul skripsi miring. Nama jurnal + volume miring. Judul artikel/bab tegak. Penerbit tegak.
+
+| No | Entri | Yang sekarang miring | Status |
+|---|---|---|---|
+| 1 | Alamsyah et al. (2022) | Jurnal Teknologi Dan Komputer (JTEK), 2 | ✅ |
+| 2 | Arsyad (2011) | Media pembelajaran | ✅ |
+| 3 | Baskoro et al. (2025) | JE-Unisla, 10 | ✅ |
+| 4 | Branch (2009) | Instructional Design: The ADDIE Approach | ✅ |
+| 5 | Daniyati et al. (2023) | Journal of Student Research, 1 | ✅ |
+| 6 | Fauzan et al. (2024) | Jurnal Penjaskesrek, 11 | ✅ |
+| 7 | Febriane (2017) | judul skripsi (Pengaruh penggunaan media pembelajaran…) | ✅ |
+| 8 | Galar & Kumar (2024) | Digital twins: Definition, implementation and applications | ❌ ini judul bab; yang dimiringkan harusnya judul buku (belum tercantum) |
+| 9 | Handoko (2020) | judul skripsi (Pengembangan trainer sensor…) | ✅ |
+| 10 | Ihsan & Munir (2024) | Journal of Electronics and Education (JEED), 2 | ✅ (cek "3026-0973", mirip ISSN, bukan halaman) |
+| 11 | Ismail et al. (2026) | Educational Journal | ⚠️ pola "In … (Vol. 1, Issue 4…)"; ubah ke *Nama Jurnal, volume*(issue), halaman |
+| 12 | Miranda et al. (2022) | Didaktik : Jurnal Ilmiah PGSD STKIP Subang, 8 | ✅ |
+| 13 | Nieveen (1999) | Design Approaches and Tools in Education and Training | ✅ |
+| 14 | Nurrita (2018) | Misykat, 3 | ✅ |
+| 15 | Okpatrioka (2023) | Dharma Acariya Nusantara: Jurnal Pendidikan, Bahasa Dan Budaya, 1 | ✅ |
+| 16 | Prasetyo (2025) | judul skripsi (Pengembangan simulator kinematika…) | ✅ |
+| 17 | Rahayu (2025) | DIAJAR: Jurnal Pendidikan Dan Pembelajaran, 4 | ✅ |
+| 18 | Rahmat et al. (2026) | Media Pembelajaran | ✅ |
+| 19 | Riana (2008) | Komputer Dan Media Pendidikan Di Sekolah Dasar | ⚠️ judul buku sudah miring, tetapi bentuk "In …" belum lengkap |
+| 20 | Rohman et al. (2024) | JKIP : Jurnal Kajian Ilmu Pendidikan, 4 | ✅ |
+| 21 | Rusjayana et al. (2026) | Jurnal Pendidikan Teknik Elektro | ⚠️ sama seperti Ismail et al.: volume harus ikut miring, hapus "In/Vol./Issue" |
+| 22 | Sadiman et al. (2012) | Media pendidikan : pengertian, pengembangan dan Pemanfaatannya | ✅ |
+| 23 | Saraswati (2018) | judul skripsi (Pengembangan trainer mikrokontroler…) | ✅ |
+| 24 | Shoffa et al. (2023) | Media pembelajaran | ✅ |
+| 25 | Spatioti et al. (2022) | Information (Switzerland), 13 | ✅ |
+| 26 | Sugiyono (2013) | Alfabeta | ❌ yang miring salah: harusnya judul buku "Metode penelitian pendidikan…"; "Alfabeta" (penerbit) tegak |
+| 27 | Umar (2014) | Jurnal Turbawiyah, 11 | ⚠️ miring sudah benar, tetapi ejaan nama jurnal beda dengan URL ("tarbawiyah"); cek |
+| 28 | Usman & Pratiwi (2022) | Ramatekno, 2 | ✅ |
+| 29 | van den Akker (1999) | Design Approaches and Tools in Education and Training | ✅ |
+| 30 | Wardiyanto (2019) | Ejournal.Unesa.Ac.Id, 8 | ❌ nama jurnal salah (itu nama situs); dari URL kemungkinan Jurnal Pendidikan Teknik Elektro; cek ke artikel |
+| 31 | Wicaksono (2016) | judul skripsi (Pengembangan Trainer Kit Sensor…) | ✅ |
+
+Catatan DP di luar miring: banyak judul masih Title Case, sedangkan panduan (Bab V, 12b) meminta hanya huruf pertama judul yang kapital.
+
+---
+
+## 4. JANGAN DIMIRINGKAN (pengecualian)
+
+Aturan nama diri dan serapan ini dari EYD, bukan dari panduan. Cek status serapan di KBBI daring.
+
+- Nama diri: Arduino, Arduino Uno, Arduino IDE, Python, Scratch, IBM SPSS Statistics, Global Solusi Edukasi, Robot Inovasi, Robotik uKit, ADDIE (nama model).
+- Nama orang dan lembaga: Likert, Cronbach, Branch, Association for Educational Communication and Technology.
+- Nama mata kuliah dan produk penelitian lain: "Mikrokontroler dan Interface", "Trainer Multi Sensor (TMS)" (h.77).
+- Singkatan dan label: LED, LCD, PWM, ADC, ICSP, IoT, R&D, CAI, CMI, PBL, AECT, GSE, GND, VIN, AREF, TX, RX, SDA, SCL, SCK, MISO, MOSI, SS.
+- Kode modul sensor: HC-SR04, HC-SR501, DHT22, MQ-6, KY-026, RC522.
+- Serapan umum: sensor, aktuator, mikrokontroler, komputer, video, audio, digital, analog, internet, robot, laptop, program, modul, resistor, transistor, dioda, adaptor, baterai.
+- Bahasa daerah: tidak ditemukan. Baciro dan Gondokusuman adalah nama tempat.
+- Sudah dicek: tidak ada teks di Bab I-III yang salah dimiringkan selain catatan "Coding" di 2G.

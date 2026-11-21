@@ -49,7 +49,7 @@ KONTEKS LOKASI PENELITIAN
   Daerah Istimewa Yogyakarta 55165
 - Bidang: Lembaga pelatihan teknologi
   (robotika, IoT, coding, visual design)
-- Target: Siswa jenjang menengah (SMP-SMA)
+- Target: Siswa jenjang menengah
 - Kelas yang relevan: Robot Inovasi (Robotik Dasar)
 - Kelas lain: Robotik uKit, Coding Scratch, Coding Python, IoT
 - Konteks: Gue mentor di GSE
