@@ -1,16 +1,16 @@
-Labsheet 1: Dasar Arduino & Output Digital (LED + RGB LED)
+Labsheet 1 : Dasar Arduino & Output Digital (LED & RGB LED)
 
-Labsheet 2: Input Digital & Keluaran Suara (Push Button + Buzzer)
+Labsheet 2 : Input Digital & Keluaran Suara (Push Button & Buzzer)
 
-Labsheet 3: Aktuator Gerak & Tampilan Data (Servo + LCD I2C)
+Labsheet 3 : Aktuator Gerak & Tampilan Data (Servo & LCD I2C)
 
-Labsheet 4: Sensor Lingkungan & Cuaca (LDR + Rain Drop)
+Labsheet 4 : Sensor Lingkungan & Cuaca (LDR & Rain Drop)
 
-Labsheet 5: Sensor Jarak, Gerak & Halangan (Ultrasonik + PIR + IR Obstacle)
+Labsheet 5 : Sensor Jarak, Gerak & Halangan (Ultrasonik, PIR & IR Obstacle)
 
-Labsheet 6: Pemantauan Lingkungan & Peringatan Dini (DHT22 + MQ-6 + Flame)
+Labsheet 6 : Pemantauan Lingkungan & Peringatan Dini (DHT22, MQ-6 & Flame)
 
-Labsheet 7: Kontrol Akses & Integrasi Sistem (RFID + Servo + LCD + Buzzer)
+Labsheet 7 : Kontrol Akses & Integrasi Sistem (RFID, Servo, LCD & Buzzer)
 
 ============================================================
 TEMPLATE LABSHEET - TRAINER KIT MULTI SENSOR
