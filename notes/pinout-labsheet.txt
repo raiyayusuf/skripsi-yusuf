@@ -1,0 +1,297 @@
+============================================================
+CATATAN PINOUT - TRAINER KIT MULTI SENSOR
+============================================================
+
+
+============================================================
+LABSHEET 1: Dasar Arduino & Output Digital (LED & RGB LED)
+============================================================
+
+Percobaan 1: LED Berkedip
+------------------------------------------------------------
+Komponen : LED Indikator (Putih)
+Pinout   :
+- LED Blok 1 (GND)   -> Arduino GND
+- LED Blok 1 (White) -> Arduino D2
+
+------------------------------------------------------------
+
+Percobaan 2: LED Berjalan (Running LED)
+------------------------------------------------------------
+Komponen : 5 LED Indikator (Putih, Merah, Kuning, Hijau, Biru)
+Pinout   :
+- LED Blok 1 (GND)    -> Arduino GND
+- LED Blok 1 (White)  -> Arduino D2
+- LED Blok 1 (Red)    -> Arduino D3
+- LED Blok 1 (Yellow) -> Arduino D4
+- LED Blok 1 (Green)  -> Arduino D5
+- LED Blok 1 (Blue)   -> Arduino D6
+
+------------------------------------------------------------
+
+Percobaan 3: Mengatur Warna LED RGB (PWM)
+------------------------------------------------------------
+Komponen : Modul LED RGB
+Pinout   :
+- LED RGB (GND) -> Arduino GND
+- LED RGB (R)   -> Arduino D9
+- LED RGB (G)   -> Arduino D10
+- LED RGB (B)   -> Arduino D11
+
+------------------------------------------------------------
+
+
+============================================================
+LABSHEET 2: Input Digital & Keluaran Suara (Push Button & Buzzer)
+============================================================
+
+Percobaan 1: Membaca Status Tombol
+------------------------------------------------------------
+Komponen : Push Button (Pb1)
+Pinout   :
+- Push Button Blok 2 (GND) -> Arduino GND
+- Push Button Blok 2 (Pb1) -> Arduino D2
+
+------------------------------------------------------------
+
+Percobaan 2: Mengendalikan Buzzer
+------------------------------------------------------------
+Komponen : Push Button (Pb1) & Passive Buzzer
+Pinout   :
+- Push Button Blok 2 (GND) -> Arduino GND
+- Push Button Blok 2 (Pb1) -> Arduino D2
+- Buzzer (GND)             -> Arduino GND
+- Buzzer (VCC)             -> Arduino 5V
+- Buzzer (I/O)             -> Arduino D3
+
+------------------------------------------------------------
+
+Percobaan 3: Piano Mini 4 Nada
+------------------------------------------------------------
+Komponen : 4 Push Button (Pb1-Pb4) & Passive Buzzer
+Pinout   :
+- Push Button Blok 2 (GND) -> Arduino GND
+- Push Button Blok 2 (Pb1) -> Arduino D2
+- Push Button Blok 2 (Pb2) -> Arduino D4
+- Push Button Blok 2 (Pb3) -> Arduino D5
+- Push Button Blok 2 (Pb4) -> Arduino D6
+- Buzzer (GND)             -> Arduino GND
+- Buzzer (VCC)             -> Arduino 5V
+- Buzzer (I/O)             -> Arduino D3
+
+------------------------------------------------------------
+
+
+============================================================
+LABSHEET 3: Aktuator Gerak & Tampilan Data (Servo & LCD I2C)
+============================================================
+
+Percobaan 1: Menggerakkan Motor Servo
+------------------------------------------------------------
+Komponen : Motor Servo
+Pinout   :
+- Servo (GND) -> Arduino GND
+- Servo (VCC) -> Arduino 5V
+- Servo (PWM) -> Arduino D9
+
+------------------------------------------------------------
+
+Percobaan 2: Menampilkan Teks pada LCD I2C
+------------------------------------------------------------
+Komponen : LCD I2C
+Pinout   :
+- LCD I2C (GND) -> Arduino GND
+- LCD I2C (VCC) -> Arduino 5V
+- LCD I2C (SDA) -> Arduino A4
+- LCD I2C (SCL) -> Arduino A5
+
+------------------------------------------------------------
+
+Percobaan 3: Integrasi Servo dan LCD
+------------------------------------------------------------
+Komponen : Motor Servo & LCD I2C
+Pinout   :
+- Servo (GND)   -> Arduino GND
+- Servo (VCC)   -> Arduino 5V
+- Servo (PWM)   -> Arduino D9
+- LCD I2C (GND) -> Arduino GND
+- LCD I2C (VCC) -> Arduino 5V
+- LCD I2C (SDA) -> Arduino A4
+- LCD I2C (SCL) -> Arduino A5
+
+------------------------------------------------------------
+
+
+============================================================
+LABSHEET 4: Sensor Lingkungan & Cuaca (LDR & Rain Drop)
+============================================================
+
+Percobaan 1: Membaca Intensitas Cahaya (LDR)
+------------------------------------------------------------
+Komponen : Modul LDR
+Pinout   :
+- LDR (GND) -> Arduino GND
+- LDR (VCC) -> Arduino 5V
+- LDR (AO)  -> Arduino A0
+
+------------------------------------------------------------
+
+Percobaan 2: Membaca Kondisi Air (Rain Drop)
+------------------------------------------------------------
+Komponen : Modul Rain Drop
+Pinout   :
+- Rain Drop (GND) -> Arduino GND
+- Rain Drop (VCC) -> Arduino 5V
+- Rain Drop (AO)  -> Arduino A1
+
+------------------------------------------------------------
+
+Percobaan 3: Monitoring Cuaca (Integrasi)
+------------------------------------------------------------
+Komponen : Modul LDR & Rain Drop
+Pinout   :
+- LDR (GND)       -> Arduino GND
+- LDR (VCC)       -> Arduino 5V
+- LDR (AO)        -> Arduino A0
+- Rain Drop (GND) -> Arduino GND
+- Rain Drop (VCC) -> Arduino 5V
+- Rain Drop (AO)  -> Arduino A1
+
+------------------------------------------------------------
+
+
+============================================================
+LABSHEET 5: Sensor Jarak, Gerak & Halangan (Ultrasonik, PIR & IR)
+============================================================
+
+Percobaan 1: Mengukur Jarak (Ultrasonik)
+------------------------------------------------------------
+Komponen : Modul Ultrasonik
+Pinout   :
+- Ultrasonik (GND)  -> Arduino GND
+- Ultrasonik (VCC)  -> Arduino 5V
+- Ultrasonik (TRIG) -> Arduino D2
+- Ultrasonik (ECHO) -> Arduino D3
+
+------------------------------------------------------------
+
+Percobaan 2: Mendeteksi Gerakan (PIR)
+------------------------------------------------------------
+Komponen : Modul PIR
+Pinout   :
+- PIR (GND) -> Arduino GND
+- PIR (VCC) -> Arduino 5V
+- PIR (OUT) -> Arduino D4
+
+------------------------------------------------------------
+
+Percobaan 3: Mendeteksi Halangan (IR Obstacle) & Buzzer
+------------------------------------------------------------
+Komponen : Modul IR Obstacle & Passive Buzzer
+Pinout   :
+- IR Obstacle (GND) -> Arduino GND
+- IR Obstacle (VCC) -> Arduino 5V
+- IR Obstacle (OUT) -> Arduino D5
+- Buzzer (GND)      -> Arduino GND
+- Buzzer (VCC)      -> Arduino 5V
+- Buzzer (I/O)      -> Arduino D6
+
+------------------------------------------------------------
+
+
+============================================================
+LABSHEET 6: Pemantauan Lingkungan & Peringatan Dini (DHT22, MQ-6 & Flame)
+============================================================
+
+Percobaan 1: Memantau Suhu dan Kelembapan (DHT22)
+------------------------------------------------------------
+Komponen : Modul DHT22
+Pinout   :
+- DHT22 (GND)       -> Arduino GND
+- DHT22 (VCC)       -> Arduino 5V
+- DHT22 (OUT/DATA)  -> Arduino D2
+
+------------------------------------------------------------
+
+Percobaan 2: Mendeteksi Gas (MQ-6) dan Api (Flame)
+------------------------------------------------------------
+Komponen : Modul MQ-6 & Modul Flame
+Pinout   :
+- MQ-6 (GND)  -> Arduino GND
+- MQ-6 (VCC)  -> Arduino 5V
+- MQ-6 (AO)   -> Arduino A0
+- Flame (GND) -> Arduino GND
+- Flame (VCC) -> Arduino 5V
+- Flame (DO)  -> Arduino D3
+
+------------------------------------------------------------
+
+Percobaan 3: Sistem Peringatan Dini Terintegrasi
+------------------------------------------------------------
+Komponen : DHT22, MQ-6, Flame, LED Merah, Passive Buzzer
+Pinout   :
+- DHT22 (GND)       -> Arduino GND
+- DHT22 (VCC)       -> Arduino 5V
+- DHT22 (OUT/DATA)  -> Arduino D2
+- Flame (GND)       -> Arduino GND
+- Flame (VCC)       -> Arduino 5V
+- Flame (DO)        -> Arduino D3
+- MQ-6 (GND)        -> Arduino GND
+- MQ-6 (VCC)        -> Arduino 5V
+- MQ-6 (AO)         -> Arduino A0
+- LED Merah Blok 1 (GND) -> Arduino GND
+- LED Merah Blok 1 (Red) -> Arduino D4
+- Buzzer (GND)      -> Arduino GND
+- Buzzer (VCC)      -> Arduino 5V
+- Buzzer (I/O)      -> Arduino D5
+
+------------------------------------------------------------
+
+
+============================================================
+LABSHEET 7: Kontrol Akses & Integrasi Sistem (RFID, Servo, LCD & Buzzer)
+============================================================
+
+Percobaan 1: Membaca UID Kartu RFID
+------------------------------------------------------------
+Komponen : Modul RFID RC522
+Pinout   :
+- RFID (3.3V)    -> Arduino 3.3V
+- RFID (RST)     -> Arduino D9
+- RFID (GND)     -> Arduino GND
+- RFID (IRQ)     -> (Tidak dihubungkan)
+- RFID (MISO)    -> Arduino D12
+- RFID (MOSI)    -> Arduino D11
+- RFID (SCK)     -> Arduino D13
+- RFID (SDA/SS)  -> Arduino D10
+
+------------------------------------------------------------
+
+Percobaan 2: Sistem Kontrol Akses Terintegrasi
+------------------------------------------------------------
+Komponen : RFID RC522, Servo, LCD I2C, Passive Buzzer
+Pinout   :
+- RFID (3.3V)    -> Arduino 3.3V
+- RFID (RST)     -> Arduino D9
+- RFID (GND)     -> Arduino GND
+- RFID (IRQ)     -> (Tidak dihubungkan)
+- RFID (MISO)    -> Arduino D12
+- RFID (MOSI)    -> Arduino D11
+- RFID (SCK)     -> Arduino D13
+- RFID (SDA/SS)  -> Arduino D10
+- Servo (GND)    -> Arduino GND
+- Servo (VCC)    -> Arduino 5V
+- Servo (PWM)    -> Arduino D6
+- LCD I2C (GND)  -> Arduino GND
+- LCD I2C (VCC)  -> Arduino 5V
+- LCD I2C (SDA)  -> Arduino A4
+- LCD I2C (SCL)  -> Arduino A5
+- Buzzer (GND)   -> Arduino GND
+- Buzzer (VCC)   -> Arduino 5V
+- Buzzer (I/O)   -> Arduino D5
+
+------------------------------------------------------------
+
+============================================================
+END OF PINOUT NOTES
+============================================================
