@@ -148,7 +148,7 @@ Pinout   :
 
 Percobaan 3: Monitoring Cuaca (Integrasi)
 ------------------------------------------------------------
-Komponen : Modul LDR & Rain Drop
+Komponen : Modul LDR, Rain Drop & LCD I2C
 Pinout   :
 - LDR (GND)       -> Arduino GND
 - LDR (VCC)       -> Arduino 5V
@@ -156,6 +156,10 @@ Pinout   :
 - Rain Drop (GND) -> Arduino GND
 - Rain Drop (VCC) -> Arduino 5V
 - Rain Drop (AO)  -> Arduino A1
+- LCD I2C (GND)   -> Arduino GND
+- LCD I2C (VCC)   -> Arduino 5V
+- LCD I2C (SDA)   -> Arduino A4
+- LCD I2C (SCL)   -> Arduino A5
 
 ------------------------------------------------------------
 
