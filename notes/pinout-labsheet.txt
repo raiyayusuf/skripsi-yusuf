@@ -42,7 +42,7 @@ Pinout   :
 
 
 ============================================================
-LABSHEET 2: Input Digital & Keluaran Suara (Push Button & Buzzer)
+LABSHEET 2: Input Digital & Keluaran Suara (Push Button & Passive Buzzer)
 ============================================================
 
 Percobaan 1: Membaca Status Tombol
@@ -226,7 +226,7 @@ Pinout   :
 - MQ-6 (AO)   -> Arduino A0
 - Flame (GND) -> Arduino GND
 - Flame (VCC) -> Arduino 5V
-- Flame (DO)  -> Arduino D3
+- Flame (AO)  -> Arduino A1
 
 ------------------------------------------------------------
 
@@ -239,7 +239,7 @@ Pinout   :
 - DHT22 (OUT/DATA)  -> Arduino D2
 - Flame (GND)       -> Arduino GND
 - Flame (VCC)       -> Arduino 5V
-- Flame (DO)        -> Arduino D3
+- Flame (AO)        -> Arduino A1
 - MQ-6 (GND)        -> Arduino GND
 - MQ-6 (VCC)        -> Arduino 5V
 - MQ-6 (AO)         -> Arduino A0

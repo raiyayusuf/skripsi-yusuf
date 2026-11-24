@@ -1,6 +1,7 @@
 Labsheet 1 : Dasar Arduino & Output Digital (LED & RGB LED)
 
-Labsheet 2 : Input Digital & Keluaran Suara (Push Button & Buzzer)
+Labsheet 2 : Input Digital & Keluaran Suara (Push Button & Passive Buzzer)
+
 
 Labsheet 3 : Aktuator Gerak & Tampilan Data (Servo & LCD I2C)
 
