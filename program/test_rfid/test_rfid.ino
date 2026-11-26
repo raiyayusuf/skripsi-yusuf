@@ -1,4 +1,3 @@
-
 #include <SPI.h>
 #include <MFRC522.h>
 
@@ -7,68 +6,44 @@
 
 MFRC522 rfid(SS_PIN, RST_PIN);
 
-int jumlahScan = 0;
+int nomorScan = 0;
 
 void setup() {
   Serial.begin(9600);
-
   SPI.begin();
   rfid.PCD_Init();
 
   Serial.println("==============================");
-  Serial.println("      RFID UID READER");
-  Serial.println("        ARDUINO UNO");
+  Serial.println("       CEK UID KARTU");
   Serial.println("==============================");
-  Serial.println("Tempelkan kartu RFID...");
+  Serial.println("Tempelkan kartu satu per satu...");
   Serial.println();
 }
 
 void loop() {
-  // Cek apakah ada kartu baru
-  if (!rfid.PICC_IsNewCardPresent()) {
-    return;
-  }
+  if (!rfid.PICC_IsNewCardPresent()) return;
+  if (!rfid.PICC_ReadCardSerial()) return;
 
-  // Baca data kartu
-  if (!rfid.PICC_ReadCardSerial()) {
-    return;
-  }
+  nomorScan++;
 
-  jumlahScan++;
-
-  Serial.println("------------------------------");
-  Serial.print("Kartu ke-: ");
-  Serial.println(jumlahScan);
-
-  // Tampilkan UID dalam format HEX
-  Serial.print("UID HEX  : ");
-
+  String uid = "";
   for (byte i = 0; i < rfid.uid.size; i++) {
-    if (rfid.uid.uidByte[i] < 0x10) {
-      Serial.print("0");
-    }
-
-    Serial.print(rfid.uid.uidByte[i], HEX);
-
-    if (i < rfid.uid.size - 1) {
-      Serial.print(" ");
-    }
+    if (rfid.uid.uidByte[i] < 0x10) uid += "0";
+    uid += String(rfid.uid.uidByte[i], HEX);
+    if (i < rfid.uid.size - 1) uid += " ";
   }
+  uid.toUpperCase();
 
-  Serial.println();
-
-  // Tampilkan panjang UID
-  Serial.print("UID Size : ");
+  Serial.print("Scan ke-");
+  Serial.println(nomorScan);
+  Serial.print("UID     : ");
+  Serial.println(uid);
+  Serial.print("Size    : ");
   Serial.print(rfid.uid.size);
   Serial.println(" bytes");
-
   Serial.println("------------------------------");
-  Serial.println("Silakan scan kartu berikutnya...");
-  Serial.println();
 
-  // Hentikan komunikasi dengan kartu
   rfid.PICC_HaltA();
   rfid.PCD_StopCrypto1();
-
-  delay(500);
+  delay(1000);
 }
